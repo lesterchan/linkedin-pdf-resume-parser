@@ -27,7 +27,7 @@ echo $parsedResume->getUrl();
 // Get Summary
 echo $parsedResume->getSummary();
  
-/ Get Work Experiences
+// Get Work Experiences
 $experiences = $parsedResume->getExperiences();
 if (count($experiences) > 0) {
     foreach ($experiences as $experience) {
@@ -35,7 +35,7 @@ if (count($experiences) > 0) {
     }
 }
  
-/ Get Education
+// Get Education
 $education = $parsedResume->getEducation();
 if (count($education) > 0) {
     foreach ($education as $edu) {

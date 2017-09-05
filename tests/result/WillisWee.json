@@ -97,7 +97,6 @@
             "course_title": "Marketing",
             "institution": "Singapore Management University",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2007-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -114,7 +113,6 @@
             "course_title": "Theoretical and Mathematical Physics",
             "institution": "NYJC",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2003-01-01 00:00:00.000000",
                 "timezone_type": 3,

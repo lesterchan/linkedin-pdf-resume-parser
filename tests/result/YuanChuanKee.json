@@ -157,7 +157,6 @@
             "course_title": "Chemical and Biomolecular Engineering",
             "institution": "National University of Singapore",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2007-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -174,7 +173,6 @@
             "course_title": "Triple Science",
             "institution": "Pioneer Junior College",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2003-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -191,7 +189,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -200,7 +197,6 @@
             "course_title": null,
             "institution": "Final Year Project, 1st Prize in Chemical and Biological System Engineering, Academic Achievement Award, Principal's List, 3rd Prize (Open Category) for Changi Airport Hackathon",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

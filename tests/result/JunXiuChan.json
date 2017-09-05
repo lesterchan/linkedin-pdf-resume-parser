@@ -82,7 +82,6 @@
             "course_title": "Electronics and Communications Engineering",
             "institution": "Nanyang Polytechnic",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2009-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -99,7 +98,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -108,7 +106,6 @@
             "course_title": null,
             "institution": "WWDC'13 Scholarship Winner",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

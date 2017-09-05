@@ -58,11 +58,11 @@ class Parser
      */
     public function parse(string $filePath, array $sections = []): ParsedResume
     {
-        if ( ! file_exists($filePath)) {
+        if (! file_exists($filePath)) {
             throw new FileNotFoundException("The file at $filePath does not exist.");
         }
 
-        if ( ! is_readable($filePath)) {
+        if (! is_readable($filePath)) {
             throw new FileNotReadableException("The file at $filePath is not readable.");
         }
 
@@ -79,27 +79,25 @@ class Parser
             $parsedResumeInstance->setName($name);
         }
 
-        list ($textLines, $lastSection) = $this->splitLastSection($textLines, $name);
+        [$textLines,] = $this->splitLastSection($textLines, $name);
 
-        if ($this->shouldParseSection(self::EMAIL, $sections)) {
-            if ($email = $this->getEmail($textLines)) {
-                $parsedResumeInstance->setEmail($email);
-            }
+        if ($this->shouldParseSection(self::EMAIL, $sections)
+            && $email = $this->getEmail($textLines)) {
+            $parsedResumeInstance->setEmail($email);
         }
 
-        if ($this->shouldParseSection(self::SUMMARY, $sections)) {
-            if ($summary = $this->getSummary($textLines)) {
-                $parsedResumeInstance->setSummary($summary);
-            }
+        if ($this->shouldParseSection(self::SUMMARY, $sections)
+            && $summary = $this->getSummary($textLines)) {
+            $parsedResumeInstance->setSummary($summary);
         }
 
-        if ($this->shouldParseSection(self::EXPERIENCE, $sections)) {
-            $experiences = $this->getExperiences($textLines);
+        if ($this->shouldParseSection(self::EXPERIENCE, $sections)
+            && $experiences = $this->getExperiences($textLines)) {
             $parsedResumeInstance->setExperiences($experiences);
         }
 
-        if ($this->shouldParseSection(self::EDUCATION, $sections)) {
-            $education= $this->getEducation($textLines);
+        if ($this->shouldParseSection(self::EDUCATION, $sections)
+            &&  $education= $this->getEducation($textLines)) {
             $parsedResumeInstance->setEducation($education);
         }
 
@@ -144,32 +142,29 @@ class Parser
         $libText = [];
 
         foreach ($parsedPdfInstance->getPages() as $page) {
-
             $libText = array_merge($libText, $page->getTextArray());
 
             $content = $page->get('Contents')->getContent();
             $sectionsText = $page->getSectionsText($content);
 
             foreach ($sectionsText as $section) {
-
                 $commands = $page->getCommandsText($section);
 
                 foreach ($commands as $command) {
-
                     switch ($command['o']) {
                         case 'Tf':
-                            list($id,) = preg_split('/\s/s', $command['c']);
+                            [$id,] = preg_split('/\s/', $command['c']);
                             $id = trim($id, '/');
                             $currentFont = $page->getFont($id);
                             break;
                         case "'":
                         case 'Tj':
                             $text = $currentFont->decodeText([$command]);
-                            $textLines[] = (new TextLine($text, $currentFont));
+                            $textLines[] = new TextLine($text, $currentFont);
                             break;
                         case 'TJ':
                             $text = $currentFont->decodeText($command['c']);
-                            $textLines[] = (new TextLine($text, $currentFont));
+                            $textLines[] = new TextLine($text, $currentFont);
                             break;
                         default:
                     }
@@ -188,14 +183,15 @@ class Parser
     protected function filterText(array $textLines): array
     {
         $filteredTextLines = [];
+        $size = count($textLines);
 
-        for ($i = 0; $i < count($textLines); $i++) {
+        for ($i = 0; $i < $size; $i++) {
             if ($this->isPageDesignation($i, $textLines)) {
                 $i++;
                 continue;
-            } else {
-                $filteredTextLines[] = $textLines[$i];
             }
+
+            $filteredTextLines[] = $textLines[$i];
         }
 
         return $filteredTextLines;
@@ -209,9 +205,9 @@ class Parser
      * @param array  $sectionsToParse
      * @return bool
      */
-    protected function shouldParseSection($section, array $sectionsToParse)
+    protected function shouldParseSection($section, array $sectionsToParse): bool
     {
-        return count($sectionsToParse) === 0 || in_array($section, $sectionsToParse);
+        return count($sectionsToParse) === 0 || in_array($section, $sectionsToParse, true);
     }
 
     /**
@@ -235,7 +231,7 @@ class Parser
      */
     protected function splitLastSection(array $textLines, TextLine $name): array
     {
-        $lastNameOccurrence = array_search($name, array_reverse($textLines));
+        $lastNameOccurrence = array_search($name, array_reverse($textLines), null);
         $lastSection = array_splice($textLines, count($textLines) - $lastNameOccurrence - 1);
 
         return [
@@ -249,14 +245,14 @@ class Parser
      *
      * @return string | null
      */
-    protected function getEmail(array $textLines)
+    protected function getEmail(array $textLines): ?string
     {
         /** @var TextLine[] $potentialEmailLines */
         $potentialEmailLines = array_slice($textLines, 1, 4);
 
         foreach ($potentialEmailLines as $potentialEmailLine) {
             // Very basic email check
-            if (preg_match('/.*?\@.*?$/', $potentialEmailLine->getText())) {
+            if (preg_match('/\@.*?$/', $potentialEmailLine->getText())) {
                 return $potentialEmailLine->getText();
             }
         }
@@ -269,7 +265,7 @@ class Parser
      *
      * @return string[]
      */
-    protected function getTextValues(array $textLines)
+    protected function getTextValues(array $textLines): array
     {
         return array_map(function (TextLine $textLine) {
             return $textLine->getText();
@@ -284,7 +280,7 @@ class Parser
      */
     protected function findSectionLines(string $sectionTitle, array $textLines): array
     {
-        $startIndex = array_search($sectionTitle, $textLines);
+        $startIndex = array_search($sectionTitle, $textLines, null);
 
         if ($startIndex === false) {
             return [];
@@ -305,8 +301,10 @@ class Parser
      */
     protected function findSectionIndexEnd(int $startIndex, array $textLines): int
     {
-        for ($i = $startIndex + 1; $i < count($textLines); $i++) {
-            if (in_array($textLines[$i], $this->sectionTitles)) {
+        $size = count($textLines);
+
+        for ($i = $startIndex + 1; $i < $size; $i++) {
+            if (in_array($textLines[$i], $this->sectionTitles, null)) {
                 return $i;
             }
         }
@@ -319,18 +317,18 @@ class Parser
      *
      * @return array
      */
-    protected function mergeLinesByParagraph($textLines): array {
+    protected function mergeLinesByParagraph($textLines): array
+    {
         $resultLines = [];
-
-        if (count($textLines)) {
-
+        $size = count($textLines);
+        if ($size) {
             $resultLines[] = $textLines[0]; // set first line
 
             // if new line starts from space we concatenate new line with the previous
-            for ($i = 1; $i < count($textLines); $i++) {
+            for ($i = 1; $i < $size; $i++) {
                 $resultLinesCount = count($resultLines);
 
-                if ($resultLinesCount && strlen($textLines[$i]) && str_split($textLines[$i])[0] == ' ') {
+                if ($resultLinesCount && '' !== $textLines[$i] && str_split($textLines[$i])[0] === ' ') {
                     $resultLines[$resultLinesCount - 1]->addText($textLines[$i]);
                 } else {
                     $resultLines[] = $textLines[$i];
@@ -347,9 +345,9 @@ class Parser
      *
      * @return string | null
      */
-    protected function getSummary(array $textLines)
+    protected function getSummary(array $textLines): ?string
     {
-        $startIndex = array_search(self::SUMMARY, $textLines);
+        $startIndex = array_search(self::SUMMARY, $textLines, null);
 
         if ($startIndex === false) {
             return null;
@@ -357,9 +355,7 @@ class Parser
 
         $endIndex = $this->findSectionIndexEnd($startIndex, $textLines);
 
-        return implode('',
-            array_slice($textLines, $startIndex + 1, $endIndex - $startIndex - 1)
-        );
+        return implode('', array_slice($textLines, $startIndex + 1, $endIndex - $startIndex - 1));
     }
 
     /**
@@ -390,7 +386,6 @@ class Parser
         $previousLineWasBold = false;
 
         foreach ($roleLines as $key => $roleLine) {
-
             $roleLineText = $roleLine->getText();
 
             if (preg_match('/\s{2}-\s{2}/', $roleLineText)) {
@@ -398,7 +393,7 @@ class Parser
                 $roleGroups[$currentGroupIndex]['date'] = $roleLineText;
             } elseif ($roleLine->isBold()) {
                 $currentGroupIndex++;
-                if ( ! $previousLineWasBold) {
+                if (! $previousLineWasBold) {
                     $roleGroups[$currentGroupIndex] = [
                         'title'   => '',
                         'date'    => '',
@@ -413,7 +408,7 @@ class Parser
                         'summary' => '',
                     ];
                 }
-            } elseif ( ! preg_match('/^\(.*\)$/', $roleLineText)) { // This indicates the duration, so skip it.
+            } elseif (! preg_match('/^\(.*\)$/', $roleLineText)) { // This indicates the duration, so skip it.
                 $previousLineWasBold = false;
                 $roleGroups[$currentGroupIndex]['summary'] .= $roleLineText . '\r\n';
             }
@@ -423,14 +418,14 @@ class Parser
             /** @var RoleInterface $roleType */
             $roleType = new $classType();
 
-            list($title, $organisation) = $this->parseRoleParts($roleGroup['title']);
+            [$title, $organisation] = $this->parseRoleParts($roleGroup['title']);
 
             $roleType
                 ->setTitle($title)
                 ->setOrganisation($organisation);
 
             if ($roleGroup['date']) {
-                list($start, $end) = $this->parseDateRange($roleGroup['date'], ' - ');
+                [$start, $end] = $this->parseDateRange($roleGroup['date'], ' - ');
 
                 $roleType
                     ->setStart($start)
@@ -464,7 +459,7 @@ class Parser
             return [$roleParts[0], null];
         }
 
-        throw new ParseException('There was an error parsing the job title and organisation from the role line ' . $roleLine);
+        throw new ParseException('Error parsing the job title and organisation: ' . $roleLine);
     }
 
     /**
@@ -478,44 +473,54 @@ class Parser
         $educationLines = $this->findSectionLines(self::EDUCATION, $textLines);
 
         $education = [];
+        $educationEntry = null;
+        $educationSize = count($educationLines);
 
-        for ($i = 0; $i < count($educationLines); $i++) {
-
+        for ($i = 0; $i < $educationSize; $i++) {
             $educationLine = $educationLines[$i];
 
             /** @var Education $educationEntry */
 
-            if (preg_match('/(.*?)\,\s(.*?)\,\s(\d{4})\s-\s(\d{4})$/', $educationLine, $matches)) { // "Bachelor of Arts, Theatre Management, 2006 - 2010"
+            if (preg_match('/(.*?)\,\s(.*?)\,\s(\d{4})\s-\s(\d{4})$/', $educationLine, $matches)) {
+                // "Bachelor of Arts, Theatre Management, 2006 - 2010"
                 $educationEntry
                     ->setLevel($matches[1])
                     ->setCourseTitle($matches[2])
                     ->setStart($this->parseStringToDateTime($matches[3]))
                     ->setEnd($this->parseStringToDateTime($matches[4]));
-            } elseif (preg_match('/(.*?)\,\s(.*?)\,\s(\d{4})$/', $educationLine, $matches)) { // "Bachelor’s Degree, Biomedical Engineering, 2014"
+            } elseif (preg_match('/(.*?)\,\s(.*?)\,\s(\d{4})$/', $educationLine, $matches)) {
+                // "Bachelor’s Degree, Biomedical Engineering, 2014"
                 $educationEntry
                     ->setLevel($matches[1])
                     ->setCourseTitle($matches[2])
                     ->setEnd($this->parseStringToDateTime($matches[3]));
-            } elseif (preg_match('/(.*?),\s(\d{4})\s-\s(\d{4})/', $educationLine, $matches)) { // "High School, 2002 - 2004"
+            } elseif (preg_match('/(.*?),\s(\d{4})\s-\s(\d{4})/', $educationLine, $matches)) {
+                // "High School, 2002 - 2004"
                 $educationEntry
                     ->setLevel($matches[1])
                     ->setStart($this->parseStringToDateTime($matches[2]))
                     ->setEnd($this->parseStringToDateTime($matches[3]));
-            } elseif (preg_match('/(.*?),\s(\d{4})/', $educationLine, $matches)) { // "High School, 2009"
+            } elseif (preg_match('/(.*?),\s(\d{4})/', $educationLine, $matches)) {
+                // "High School, 2009"
                 $educationEntry
                     ->setLevel($matches[1])
                     ->setEnd($this->parseStringToDateTime($matches[2]));
-            } elseif (preg_match('/(\d{4})\s-\s(\d{4})/', $educationLine, $matches)) { // "2002 - 2006"
+            } elseif (preg_match('/(\d{4})\s-\s(\d{4})/', $educationLine, $matches)) {
+                // "2002 - 2006"
                 $educationEntry
                     ->setStart($this->parseStringToDateTime($matches[1]))
                     ->setEnd($this->parseStringToDateTime($matches[2]));
-            } elseif (trim($educationLine) === 'Activities and Societies:') { // "Activities and Societies: "
+            } elseif (trim($educationLine) === 'Activities and Societies:') {
+                // We are not using this information
+                // "Activities and Societies: "
                 // At least one line belongs to "Activities and Societies"
                 $activitiesAndSocieties = $educationLines[$i + 1];
                 // Modify the index to skip any lines we process here
                 $i++;
                 // And there may be more lines that start with a space that should be appended to the activities
-                for ($activitiesAndSocietiesIndex = $i + 1; $activitiesAndSocietiesIndex < count($educationLines); $activitiesAndSocietiesIndex++) {
+                for ($activitiesAndSocietiesIndex = $i + 1;
+                     $activitiesAndSocietiesIndex < $educationSize;
+                     $activitiesAndSocietiesIndex++) {
                     if (preg_match('/^\s(.*)$/', $educationLines[$activitiesAndSocietiesIndex])) {
                         $activitiesAndSocieties .= $educationLines[$activitiesAndSocietiesIndex];
                         $i++;
@@ -523,13 +528,12 @@ class Parser
                         break;
                     }
                 }
-                $educationEntry->setActivitiesAndSocieties($activitiesAndSocieties);
-            } elseif (trim($educationLine) === 'Grade:') { // "Grade: "
+            } elseif (trim($educationLine) === 'Grade:') {
+                // "Grade: "
                 $educationEntry->setGrade($educationLines[$i + 1]);
                 $i++;
             } else {
-                // If this line doesn't match anything else, it likely marks the start of a new education entry, so add it to the list of entries and start a new one.
-                if (isset($educationEntry)) {
+                if (null !== $educationEntry) {
                     $education[] = $educationEntry;
                 }
 
@@ -537,7 +541,7 @@ class Parser
             }
         }
 
-        if (isset($educationEntry)) {
+        if (null !== $educationEntry) {
             $education[] = $educationEntry;
         }
 
@@ -570,7 +574,6 @@ class Parser
         $dateParts = $this->splitAndTrim($delimiter, $datesLine);
 
         if (count($dateParts) === 2) {
-
             $startDateTime = $this->parseStringToDateTime($dateParts[0]);
 
             if ($dateParts[1] === 'Present') {
@@ -583,9 +586,9 @@ class Parser
                 $startDateTime,
                 $endDateTime,
             ];
-        } else {
-            throw new ParseException("There was an error parsing the date range from the line '${datesLine}'");
         }
+
+        throw new ParseException('Unable to parse date range: ' . $datesLine);
     }
 
     /**
@@ -598,10 +601,11 @@ class Parser
     {
         if (preg_match('/\w{1,}\s\d{4}/', $string)) {
             return DateTime::createFromFormat('H:i:s d F Y', '00:00:00 01 ' . $string);
-        } elseif (preg_match('/\d{4}/', $string)) {
-            return DateTime::createFromFormat('H:i:s d m Y', '00:00:00 01 01 ' . $string);
-        } else {
-            throw new ParseException("Unable to parse a valid date time from '${string}'");
         }
+        if (preg_match('/\d{4}/', $string)) {
+            return DateTime::createFromFormat('H:i:s d m Y', '00:00:00 01 01 ' . $string);
+        }
+
+        throw new ParseException('Unable to parse date time: ' . $string);
     }
 }

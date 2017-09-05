@@ -42,7 +42,7 @@ abstract class AbstractSectionTest extends TestCase
      * @throws \LinkedInResumeParser\Exception\FileNotReadableException
      * @throws \LinkedInResumeParser\Exception\ParseException
      */
-    protected function parsePdf()
+    protected function parsePdf(): ParsedResume
     {
         $functionName = debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT, 2)[1]['function'];
         $pdfFilename = substr($functionName, 4) . '.pdf';

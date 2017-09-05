@@ -41,7 +41,6 @@
             "course_title": "Information Systems",
             "institution": "Singapore Management University",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2013-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -58,7 +57,6 @@
             "course_title": "Business Information Technology",
             "institution": "Ngee Ann Polytechnic",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2010-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -75,7 +73,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -84,7 +81,6 @@
             "course_title": null,
             "institution": "Dean's List, 1st Runner Up in InnovateIT Business Technology Case Challenge, 3rd Most Outstanding Performance",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

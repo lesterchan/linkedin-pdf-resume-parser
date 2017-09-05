@@ -112,7 +112,6 @@
             "course_title": "Computer Science",
             "institution": "Bina Nusantara University, Jakarta",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2001-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -129,7 +128,6 @@
             "course_title": "Natural Sciences",
             "institution": "Bunda Hati Kudus",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "1999-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -146,7 +144,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -155,7 +152,6 @@
             "course_title": null,
             "institution": "Best Graduates 2005",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

@@ -15,7 +15,10 @@ class EducationTest extends AbstractSectionTest
 
         $edu = $education[0];
         $this->assertEquals('Bachelor of Computing (Honors)', $edu->getLevel());
-        $this->assertEquals('Information Systems, Specialized in Services Science, Management and Engineering (SSME)', $edu->getCourseTitle());
+        $this->assertEquals(
+            'Information Systems, Specialized in Services Science, Management and Engineering (SSME)',
+            $edu->getCourseTitle()
+        );
         $this->assertEquals('National University of Singapore', $edu->getInstitution());
         $this->assertEquals(2006, date_format($edu->getStart(), 'Y'));
         $this->assertEquals(2010, date_format($edu->getEnd(), 'Y'));
@@ -33,7 +36,10 @@ class EducationTest extends AbstractSectionTest
 
         $edu = $education[0];
         $this->assertEquals('Bachelor\'s Degree', $edu->getLevel());
-        $this->assertEquals('Computing (Honours, Second Upper) in Communications and Media, Computer Science', $edu->getCourseTitle());
+        $this->assertEquals(
+            'Computing (Honours, Second Upper) in Communications and Media, Computer Science',
+            $edu->getCourseTitle()
+        );
         $this->assertEquals('National University of Singapore', $edu->getInstitution());
         $this->assertEquals(2010, date_format($edu->getStart(), 'Y'));
         $this->assertEquals(2015, date_format($edu->getEnd(), 'Y'));

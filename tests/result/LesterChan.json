@@ -179,7 +179,6 @@
             "course_title": "Information Systems, Specialized in Services Science, Management and Engineering (SSME)",
             "institution": "National University of Singapore",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2006-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -196,7 +195,6 @@
             "course_title": null,
             "institution": "Singapore Polytechnic",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2001-01-01 00:00:00.000000",
                 "timezone_type": 3,

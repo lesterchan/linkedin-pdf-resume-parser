@@ -67,7 +67,6 @@
             "course_title": "Computer Engineering",
             "institution": "National University of Singapore",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2008-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -84,7 +83,6 @@
             "course_title": null,
             "institution": "Committee)",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -93,7 +91,6 @@
             "course_title": null,
             "institution": "Kungliga tekniska h\u00f6gskolan \/ KTH Royal Institute of Technology",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2010-01-01 00:00:00.000000",
                 "timezone_type": 3,

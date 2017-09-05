@@ -67,7 +67,6 @@
             "course_title": "Computer Science",
             "institution": "Ateneo de Naga University",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "1995-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -84,7 +83,6 @@
             "course_title": "Computer Science",
             "institution": "Ateneo de Naga University",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "1995-01-01 00:00:00.000000",
                 "timezone_type": 3,

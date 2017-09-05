@@ -52,7 +52,6 @@
             "course_title": "Computing (Honours, Second Upper) in Communications and Media, Computer Science",
             "institution": "National University of Singapore",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2010-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -69,7 +68,6 @@
             "course_title": null,
             "institution": "Singapore Polytechnic",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2005-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -86,7 +84,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -95,7 +92,6 @@
             "course_title": null,
             "institution": "DPG Awards 2011 - Excellence Award in Dedication (Individual), Silver Medal (Web Design), Book Prize - 2nd Prize, 6th School of Computing Term Project Showcase - 2nd Prize, Dean's List",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

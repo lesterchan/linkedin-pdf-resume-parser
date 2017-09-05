@@ -82,9 +82,11 @@ class TextLine
     }
 
     /**
-     * @return string
+     * @param string $text
+     *
+     * @return void
      */
-    public function addText(string $text)
+    public function addText(string $text): void
     {
         $this->text .= $text;
     }

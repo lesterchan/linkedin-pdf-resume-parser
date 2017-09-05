@@ -52,7 +52,6 @@
             "course_title": "Marketing",
             "institution": "Nanyang Technological University",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2010-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -69,7 +68,6 @@
             "course_title": null,
             "institution": "Hwa Chong Instituition",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2009-01-01 00:00:00.000000",
                 "timezone_type": 3,

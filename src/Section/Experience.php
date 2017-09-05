@@ -20,41 +20,42 @@ class Experience implements JsonSerializable, RoleInterface, Arrayable, ArrayAcc
     use ArrayAccessible;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $title;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $organisation;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $summary;
 
     /**
-     * @var DateTimeInterface | null
+     * @var DateTimeInterface|null
      */
     protected $start;
 
     /**
-     * @var DateTimeInterface | null
+     * @var DateTimeInterface|null
      */
     protected $end;
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getTitle()
+    public function getTitle(): ?string
     {
         return $this->title;
     }
 
     /**
-     * @param null|string $title
-     * @return Role | RoleInterface
+     * @param string|null $title
+     *
+     * @return RoleInterface
      */
     public function setTitle(string $title): RoleInterface
     {
@@ -63,16 +64,17 @@ class Experience implements JsonSerializable, RoleInterface, Arrayable, ArrayAcc
     }
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getOrganisation()
+    public function getOrganisation(): ?string
     {
         return $this->organisation;
     }
 
     /**
-     * @param null|string $organisation
-     * @return Role | RoleInterface
+     * @param string|null $organisation
+     *
+     * @return RoleInterface
      */
     public function setOrganisation(?string $organisation): RoleInterface
     {
@@ -81,39 +83,39 @@ class Experience implements JsonSerializable, RoleInterface, Arrayable, ArrayAcc
     }
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getSummary()
+    public function getSummary(): ?string
     {
         return $this->summary;
     }
 
     /**
-     * @param null|string $summary
-     * @return Role | RoleInterface
+     * @param string|null $summary
+     *
+     * @return RoleInterface
      */
     public function setSummary(string $summary): RoleInterface
     {
-        // fix line breaks
-        $summary = preg_replace("/\\\\r\\\\n$/", "", $summary);
-        // $summary = preg_replace("/\\\\r\\\\n-/", "___BREAK___", $summary);
-        // $summary = preg_replace("/\\\\r\\\\n/", "", $summary);
-        // $summary = preg_replace("/___BREAK___/", "\\r\\n-", $summary);
+        // Fix line breaks
+        $summary = preg_replace("/\\\\r\\\\n$/", '', $summary);
         $this->summary = $summary;
+
         return $this;
     }
 
     /**
      * @return DateTimeInterface|null
      */
-    public function getStart()
+    public function getStart(): ?DateTimeInterface
     {
         return $this->start;
     }
 
     /**
      * @param DateTimeInterface|null $start
-     * @return Role | RoleInterface
+     *
+     * @return RoleInterface
      */
     public function setStart(DateTimeInterface $start = null): RoleInterface
     {
@@ -124,14 +126,15 @@ class Experience implements JsonSerializable, RoleInterface, Arrayable, ArrayAcc
     /**
      * @return DateTimeInterface|null
      */
-    public function getEnd()
+    public function getEnd(): ?DateTimeInterface
     {
         return $this->end;
     }
 
     /**
      * @param DateTimeInterface|null $end
-     * @return Role | RoleInterface
+     *
+     * @return RoleInterface
      */
     public function setEnd(DateTimeInterface $end = null): RoleInterface
     {
@@ -152,7 +155,7 @@ class Experience implements JsonSerializable, RoleInterface, Arrayable, ArrayAcc
      *
      * @return array
      */
-    public function toArray()
+    public function toArray(): array
     {
         return [
             'title'        => $this->title,

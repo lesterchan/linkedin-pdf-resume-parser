@@ -97,7 +97,6 @@
             "course_title": "Engineering Product Development",
             "institution": "Singapore University of Technology and Design",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2012-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -114,7 +113,6 @@
             "course_title": null,
             "institution": "Tampines Junior College",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2011-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -131,7 +129,6 @@
             "course_title": null,
             "institution": "Beatty Secondary School",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2007-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -148,7 +145,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -157,7 +153,6 @@
             "course_title": null,
             "institution": "Runner Up, Clean & Green Hackathon 2013",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

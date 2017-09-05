@@ -97,7 +97,6 @@
             "course_title": null,
             "institution": "General Assembly",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2016-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -114,7 +113,6 @@
             "course_title": "Psychology",
             "institution": "Singapore Management University",
             "grade": null,
-            "activities_and_societies": null,
             "start": {
                 "date": "2009-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -131,7 +129,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -140,7 +137,6 @@
             "course_title": null,
             "institution": "Advertisting To The Consumer, Print Finalist",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

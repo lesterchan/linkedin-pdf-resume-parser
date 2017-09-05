@@ -172,7 +172,6 @@
             "course_title": "Communications and New Media",
             "institution": "National University of Singapore",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2011-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -189,7 +188,6 @@
             "course_title": "Philosophy",
             "institution": "The University of Hong Kong",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2014-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -206,7 +204,6 @@
             "course_title": null,
             "institution": "Catholic Junior College",
             "grade": null,
-            "activities_and_societies": {},
             "start": {
                 "date": "2009-01-01 00:00:00.000000",
                 "timezone_type": 3,
@@ -223,7 +220,6 @@
             "course_title": null,
             "institution": "Honors and Awards",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         },
@@ -232,7 +228,6 @@
             "course_title": null,
             "institution": "NUS Awards for Study Abroad (NASA) Exchange Scholarship, National Youth Achievement Award (Silver)",
             "grade": null,
-            "activities_and_societies": null,
             "start": null,
             "end": null
         }

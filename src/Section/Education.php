@@ -20,12 +20,12 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
     use ArrayAccessible;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $level;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $courseTitle;
 
@@ -35,38 +35,34 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
     protected $institution;
 
     /**
-     * @var string | null
+     * @var string|null
      */
     protected $grade;
 
     /**
-     * @var string | null
-     */
-    protected $activitiesAndSocieties;
-
-    /**
-     * @var DateTimeInterface | null
+     * @var DateTimeInterface|null
      */
     protected $start;
 
     /**
-     * @var DateTimeInterface | null
+     * @var DateTimeInterface|null
      */
     protected $end;
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getLevel()
+    public function getLevel(): ?string
     {
         return $this->level;
     }
 
     /**
-     * @param null|string $level
+     * @param string|null $level
+     *
      * @return Education
      */
-    public function setLevel($level)
+    public function setLevel($level): Education
     {
         $level = str_replace('’', '\'', $level);
 
@@ -75,18 +71,19 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
     }
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getCourseTitle()
+    public function getCourseTitle(): ?string
     {
         return $this->courseTitle;
     }
 
     /**
-     * @param null|string $courseTitle
+     * @param string|null $courseTitle
+     *
      * @return Education
      */
-    public function setCourseTitle($courseTitle)
+    public function setCourseTitle($courseTitle): Education
     {
         $this->courseTitle = $courseTitle;
         return $this;
@@ -102,6 +99,7 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
 
     /**
      * @param string $institution
+     *
      * @return Education
      */
     public function setInstitution(string $institution): Education
@@ -111,54 +109,38 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
     }
 
     /**
-     * @return null|string
+     * @return string|null
      */
-    public function getGrade()
+    public function getGrade(): ?string
     {
         return $this->grade;
     }
 
     /**
-     * @param null|string $grade
+     * @param string|null $grade
+     *
      * @return Education
      */
-    public function setGrade($grade)
+    public function setGrade($grade): Education
     {
         $this->grade = $grade;
         return $this;
     }
 
     /**
-     * @return null|string
-     */
-    public function getActivitiesAndSocieties()
-    {
-        return $this->activitiesAndSocieties;
-    }
-
-    /**
-     * @param null|string $activitiesAndSocieties
-     * @return Education
-     */
-    public function setActivitiesAndSocieties($activitiesAndSocieties)
-    {
-        $this->activitiesAndSocieties = $activitiesAndSocieties;
-        return $this;
-    }
-
-    /**
      * @return DateTimeInterface|null
      */
-    public function getStart()
+    public function getStart(): ?DateTimeInterface
     {
         return $this->start;
     }
 
     /**
      * @param DateTimeInterface|null $start
+     *
      * @return Education
      */
-    public function setStart($start)
+    public function setStart($start): Education
     {
         $this->start = $start;
         return $this;
@@ -167,16 +149,17 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
     /**
      * @return DateTimeInterface|null
      */
-    public function getEnd()
+    public function getEnd(): ?DateTimeInterface
     {
         return $this->end;
     }
 
     /**
      * @param DateTimeInterface|null $end
+     *
      * @return Education
      */
-    public function setEnd($end)
+    public function setEnd($end): Education
     {
         $this->end = $end;
         return $this;
@@ -195,14 +178,13 @@ class Education implements JsonSerializable, Arrayable, ArrayAccess
      *
      * @return array
      */
-    public function toArray()
+    public function toArray(): array
     {
         return [
             'level'                    => $this->level,
             'course_title'             => $this->courseTitle,
             'institution'              => $this->institution,
             'grade'                    => $this->grade,
-            'activities_and_societies' => $this->activitiesAndSocieties,
             'start'                    => $this->start,
             'end'                      => $this->end,
         ];
