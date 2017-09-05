@@ -708,4 +708,39 @@ class ExperienceTest extends AbstractSectionTest
         $this->assertEquals('August 2011', date_format($experience->getEnd(), 'F Y'));
         $this->assertNotEmpty($experience->getSummary());
     }
+
+    public function testMingHaoTeoh()
+    {
+        $result = $this->parsePdf();
+
+        $experiences = $result->getExperiences();
+
+        $experience = $experiences[0];
+        $this->assertEquals('Head of BD, Jobs', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('May 2016', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals(null, $experience->getEnd());
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[1];
+        $this->assertEquals('Head of Business Development, Indonesia', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('June 2011', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('April 2016', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[2];
+        $this->assertEquals('Intern', $experience->getTitle());
+        $this->assertEquals('Travelogy.com Pte Ltd', $experience->getOrganisation());
+        $this->assertEquals('May 2011', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('June 2011', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[3];
+        $this->assertEquals('Owner', $experience->getTitle());
+        $this->assertEquals(null, $experience->getOrganisation());
+        $this->assertEquals('January 2007', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('April 2011', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+    }
 }

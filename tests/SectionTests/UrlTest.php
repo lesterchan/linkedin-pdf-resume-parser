@@ -110,4 +110,16 @@ class UrlTest extends AbstractSectionTest
         $result = $this->parsePdf();
         $this->assertEquals('https://www.linkedin.com/in/simyanting', $result->getUrl());
     }
+
+    public function testAndrewWang()
+    {
+        $result = $this->parsePdf();
+        $this->assertEquals('https://www.linkedin.com/in/wwerdna', $result->getUrl());
+    }
+
+    public function testMingHaoTeoh()
+    {
+        $result = $this->parsePdf();
+        $this->assertEquals('https://www.linkedin.com/in/minghaoteoh', $result->getUrl());
+    }
 }

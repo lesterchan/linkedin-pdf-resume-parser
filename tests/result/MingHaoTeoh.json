@@ -1,0 +1,82 @@
+{
+    "name": "minghao teoh",
+    "email": "minghao@techinasia.com",
+    "url": "https:\/\/www.linkedin.com\/in\/minghaoteoh",
+    "summary": "About me: Entrepreneurial, adventurous, fun-loving, spirited, spend much time in Indonesia, hustler, passionate, love sports, enjoy competition, hate to lose(nobody likes it, right?), like Dota but bad in it, Arsenal fan since 18.",
+    "experiences": [
+        {
+            "title": "Head of BD, Jobs",
+            "organisation": "Tech in Asia",
+            "summary": "Tech in Asia has ventured into recruitment to help companies hire tech talents. We want to help tech companies hire good talents and vice versa, good talents to find jobs and companies they want to work in.",
+            "start": {
+                "date": "2016-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Head of Business Development, Indonesia",
+            "organisation": "Tech in Asia",
+            "summary": "Take charge of business development and manage a team of 30 staff in Indonesia. Job scope of business development in TiA involves networking, joining events, meeting startups, investors, and corporates folks to explore potential collaborations.",
+            "start": {
+                "date": "2011-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Intern",
+            "organisation": "Travelogy.com Pte Ltd",
+            "summary": "Intern",
+            "start": {
+                "date": "2011-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Owner",
+            "organisation": null,
+            "summary": "Co-founded Friends! Learning Centre and ran the centre for 5 years before selling it off as a going concern. In the 5 years, i took charge of the centre's marketing, sales and accounting. Being a start up, there's huge constraints in funds. Bootstrapping and devising low cost effective marketing campaigns are important survival skills. Guerilla marketing tactics and  blue ocean strategies are some important skills i acquired in my course of work.",
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Accounting",
+            "course_title": "Accounting",
+            "institution": "Singapore Institute of Management",
+            "grade": null,
+            "start": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

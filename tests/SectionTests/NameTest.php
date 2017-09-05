@@ -116,4 +116,10 @@ class NameTest extends AbstractSectionTest
         $result = $this->parsePdf();
         $this->assertEquals('Andrew Wang', $result->getName());
     }
+
+    public function testMingHaoTeoh()
+    {
+        $result = $this->parsePdf();
+        $this->assertEquals('minghao teoh', $result->getName());
+    }
 }

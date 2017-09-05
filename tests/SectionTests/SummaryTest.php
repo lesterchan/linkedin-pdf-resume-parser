@@ -115,4 +115,10 @@ class SummaryTest extends AbstractSectionTest
         $result = $this->parsePdf();
         $this->assertEquals('N/A', $result->getSummary());
     }
+
+    public function testMingHaoTeoh()
+    {
+        $result = $this->parsePdf();
+        $this->assertNotEmpty($result->getSummary());
+    }
 }
