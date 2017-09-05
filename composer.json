@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "smalot/pdfparser": "^0.10.0",
+        "smalot/pdfparser": "*",
         "roave/security-advisories": "dev-master"
     },
     "require-dev": {

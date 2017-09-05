@@ -59,17 +59,17 @@ class Parser
     public function parse(string $filePath, array $sections = []): ParsedResume
     {
         if (! file_exists($filePath)) {
-            throw new FileNotFoundException("The file at $filePath does not exist.");
+            throw new FileNotFoundException('File does not exists: ' . $filePath);
         }
 
         if (! is_readable($filePath)) {
-            throw new FileNotReadableException("The file at $filePath is not readable.");
+            throw new FileNotReadableException('File is not readable: ' . $filePath);
         }
 
         $parsedPdfInstance = $this->getParsedPdfInstance($filePath);
 
-        $textLines = $this->getAllTextLines($parsedPdfInstance);
-        $textLines = $this->filterText($textLines);
+        $allTextLines = $this->getAllTextLines($parsedPdfInstance);
+        $textLines = $this->filterText($allTextLines);
 
         $parsedResumeInstance = new ParsedResume();
 
@@ -97,20 +97,13 @@ class Parser
         }
 
         if ($this->shouldParseSection(self::EDUCATION, $sections)
-            &&  $education= $this->getEducation($textLines)) {
+            && $education = $this->getEducation($textLines)) {
             $parsedResumeInstance->setEducation($education);
         }
 
-        if ($this->shouldParseSection(self::URL, $sections)) {
-            $urls = [];
-            $pdfContent = file_get_contents($filePath, true);
-            // preg_match_all('/URI\(([^,]*?)\)\/S\/URI/', $pdfContent, $urls);
-            preg_match_all('/URI \(([^,]*?)\)/', $pdfContent, $urls);
-
-            if (count($urls) > 0) {
-                $url = array_reverse($urls)[0][0];
-                $parsedResumeInstance->setUrl($url);
-            }
+        if ($this->shouldParseSection(self::URL, $sections)
+            && $url = $this->getUrl($filePath)) {
+            $parsedResumeInstance->setUrl($url);
         }
 
         return $parsedResumeInstance;
@@ -343,7 +336,7 @@ class Parser
     /**
      * @param array $textLines
      *
-     * @return string | null
+     * @return string|null
      */
     protected function getSummary(array $textLines): ?string
     {
@@ -356,6 +349,23 @@ class Parser
         $endIndex = $this->findSectionIndexEnd($startIndex, $textLines);
 
         return implode('', array_slice($textLines, $startIndex + 1, $endIndex - $startIndex - 1));
+    }
+
+    /**
+     * @param string $file
+     *
+     * @return string|null
+     */
+    protected function getUrl(string $file): ?string
+    {
+        $urls = [];
+
+        preg_match_all('/URI \(([^,]*?)\)/', file_get_contents($file, true), $urls);
+        if (count($urls) > 0) {
+            return array_reverse($urls)[0][0];
+        }
+
+        return null;
     }
 
     /**
@@ -459,7 +469,7 @@ class Parser
             return [$roleParts[0], null];
         }
 
-        throw new ParseException('Error parsing the job title and organisation: ' . $roleLine);
+        throw new ParseException('Unable to parse job title and organisation: ' . $roleLine);
     }
 
     /**
