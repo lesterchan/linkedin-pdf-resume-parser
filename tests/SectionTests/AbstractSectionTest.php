@@ -26,7 +26,7 @@ abstract class AbstractSectionTest extends TestCase
     /**
      * Setup testing variables & environment
      */
-    public function setUp()
+    protected function setUp()
     {
         parent::setUp();
 
@@ -36,16 +36,18 @@ abstract class AbstractSectionTest extends TestCase
     }
 
     /**
+     * @param string $testMethodName
+     *
      * @return ParsedResume
+     *
      * @throws \Exception
      * @throws \LinkedInResumeParser\Exception\FileNotFoundException
      * @throws \LinkedInResumeParser\Exception\FileNotReadableException
      * @throws \LinkedInResumeParser\Exception\ParseException
      */
-    protected function parsePdf(): ParsedResume
+    protected function parsePdf(string $testMethodName): ParsedResume
     {
-        $functionName = debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT, 2)[1]['function'];
-        $pdfFilename = substr($functionName, 4) . '.pdf';
+        $pdfFilename = substr($testMethodName, 4) . '.pdf';
 
         return $this->parser->parse($this->samplePath . '/' . $pdfFilename);
     }

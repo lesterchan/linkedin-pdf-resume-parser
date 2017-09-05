@@ -9,123 +9,117 @@ namespace LinkedInResumeParser\Tests\SectionTests;
  */
 class UrlTest extends AbstractSectionTest
 {
+    protected $url;
+
+    protected function setUp()
+    {
+        parent::setUp();
+
+        $this->url = $this->parsePdf($this->getName())->getUrl();
+    }
+
+    protected function tearDown()
+    {
+        unset($this->url);
+    }
+
     public function testLesterChan()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/lesterchan', $url);
+        $this->assertEquals('https://www.linkedin.com/in/lesterchan', $this->url);
     }
 
     public function testMelvinLee()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/zyml89', $url);
+        $this->assertEquals('https://www.linkedin.com/in/zyml89', $this->url);
     }
 
     public function testKwongHowOng()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/kwonghow', $url);
+        $this->assertEquals('https://www.linkedin.com/in/kwonghow', $this->url);
     }
 
     public function testLimCheeAun()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/cheeaun', $url);
+        $this->assertEquals('https://www.linkedin.com/in/cheeaun', $this->url);
     }
 
     public function testYuanChuanKee()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/yuanchuan', $url);
+        $this->assertEquals('https://www.linkedin.com/in/yuanchuan', $this->url);
     }
 
     public function testBernardTraquena()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/bernardtraquena', $url);
+        $this->assertEquals('https://www.linkedin.com/in/bernardtraquena', $this->url);
     }
 
     public function testNicoArianto()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/nicoarianto', $url);
+        $this->assertEquals('https://www.linkedin.com/in/nicoarianto', $this->url);
     }
 
     public function testJunXiuChan()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/jun-xiu-chan-111181b0', $url);
+        $this->assertEquals('https://www.linkedin.com/in/jun-xiu-chan-111181b0', $this->url);
     }
 
     public function testRandySugianto()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/randy-sugianto-21aa558', $url);
+        $this->assertEquals('https://www.linkedin.com/in/randy-sugianto-21aa558', $this->url);
     }
 
     public function testTingZhiLim()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/limtingzhi', $url);
+        $this->assertEquals('https://www.linkedin.com/in/limtingzhi', $this->url);
     }
 
     public function testXinyingLin()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/xinying-lin-994864148', $url);
+        $this->assertEquals('https://www.linkedin.com/in/xinying-lin-994864148', $this->url);
     }
 
     public function testWillisWee()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/williswee', $url);
+        $this->assertEquals('https://www.linkedin.com/in/williswee', $this->url);
     }
 
     public function testCelineWong()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/celine-wong', $url);
+        $this->assertEquals('https://www.linkedin.com/in/celine-wong', $this->url);
     }
 
     public function testWanLinCheung()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/wan-lin-cheung-460680109', $url);
+        $this->assertEquals('https://www.linkedin.com/in/wan-lin-cheung-460680109', $this->url);
     }
 
     public function testLouisaChiew()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/louisachiew', $url);
+        $this->assertEquals('https://www.linkedin.com/in/louisachiew', $this->url);
     }
 
     public function testLisaTjide()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/lisatjide17', $url);
+        $this->assertEquals('https://www.linkedin.com/in/lisatjide17', $this->url);
     }
 
     public function testSimYanTing()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/simyanting', $url);
+        $this->assertEquals('https://www.linkedin.com/in/simyanting', $this->url);
     }
 
     public function testAndrewWang()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/wwerdna', $url);
+        $this->assertEquals('https://www.linkedin.com/in/wwerdna', $this->url);
     }
 
     public function testMingHaoTeoh()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/minghaoteoh', $url);
+        $this->assertEquals('https://www.linkedin.com/in/minghaoteoh', $this->url);
     }
 
     public function testSharonJee()
     {
-        $url = $this->parsePdf()->getUrl();
-        $this->assertEquals('https://www.linkedin.com/in/sharonjee', $url);
+        $this->assertEquals('https://www.linkedin.com/in/sharonjee', $this->url);
     }
 }

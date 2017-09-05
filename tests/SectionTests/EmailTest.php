@@ -9,123 +9,117 @@ namespace LinkedInResumeParser\Tests\SectionTests;
  */
 class EmailTest extends AbstractSectionTest
 {
+    protected $email;
+
+    protected function setUp()
+    {
+        parent::setUp();
+
+        $this->email = $this->parsePdf($this->getName())->getEmail();
+    }
+
+    protected function tearDown()
+    {
+        unset($this->email);
+    }
+
     public function testLesterChan()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('lesterchan@gmail.com', $email);
+        $this->assertEquals('lesterchan@gmail.com', $this->email);
     }
 
     public function testMelvinLee()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('zy@zy.sg', $email);
+        $this->assertEquals('zy@zy.sg', $this->email);
     }
 
     public function testKwongHowOng()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testLimCheeAun()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('cheeaun@gmail.com', $email);
+        $this->assertEquals('cheeaun@gmail.com', $this->email);
     }
 
     public function testYuanChuanKee()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testBernardTraquena()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('btraquena@gmail.com', $email);
+        $this->assertEquals('btraquena@gmail.com', $this->email);
     }
 
     public function testNicoArianto()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('nico.arianto@gmail.com', $email);
+        $this->assertEquals('nico.arianto@gmail.com', $this->email);
     }
 
     public function testJunXiuChan()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('junxiu92@gmail.com', $email);
+        $this->assertEquals('junxiu92@gmail.com', $this->email);
     }
 
     public function testRandySugianto()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('yukuku@gmail.com', $email);
+        $this->assertEquals('yukuku@gmail.com', $this->email);
     }
 
     public function testTingZhiLim()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testXinyingLin()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('ccyouki@gmail.com', $email);
+        $this->assertEquals('ccyouki@gmail.com', $this->email);
     }
 
     public function testWillisWee()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('williswee@gmail.com', $email);
+        $this->assertEquals('williswee@gmail.com', $this->email);
     }
 
     public function testCelineWong()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testWanLinCheung()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testLouisaChiew()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testLisaTjide()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testSimYanTing()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 
     public function testAndrewWang()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('keepwalking.aw@gmail.com', $email);
+        $this->assertEquals('keepwalking.aw@gmail.com', $this->email);
     }
 
     public function testMingHaoTeoh()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals('minghao@techinasia.com', $email);
+        $this->assertEquals('minghao@techinasia.com', $this->email);
     }
 
     public function testSharonJee()
     {
-        $email = $this->parsePdf()->getEmail();
-        $this->assertEquals(null, $email);
+        $this->assertEquals(null, $this->email);
     }
 }
