@@ -11,27 +11,36 @@ $ composer require techinasia/linkedin-pdf-resume-parser:dev-master
 ## Usage
 
 ```php
+// Init
 $resumeParser = new \LinkedInResumeParser\Parser();
 $parsedResume = $resumeParser->parse('/path/to/resume.pdf');
-
+ 
+// Get Name
 echo $parsedResume->getName();
-
-echo $parsedResume->getCurrentRole()->getOrganisation();
-// The Drum
-
-echo $parsedResume->getCurrentRole()->getStart()->format('F, Y');
-// August, 2016
-
-foreach ($parsedResume->getSkills() as $skill) {
-    echo $skill;
-    // PHP
-    // Git
-    // ...
+ 
+// Get Email
+echo $parsedResume->getEmail();
+ 
+// Get LinkedIn Profile URL
+echo $parsedResume->getUrl();
+ 
+// Get Summary
+echo $parsedResume->getSummary();
+ 
+/ Get Work Experiences
+$experiences = $parsedResume->getExperiences();
+if (count($experiences) > 0) {
+    foreach ($experiences as $experience) {
+        echo $experience->getTitle() . ' at ' . $experience->getOrganisation() . ' (' . date_format($experience->getStart(), 'F Y') . ' - ' . date_format($experience->getEnd(), 'F Y') . ')';
+    }
 }
-
-foreach ($parsedResume->getEducationEntries() as $educationEntry) {
-    echo $educationEntry->getInstitution();
-    // University of Strathclyde
+ 
+/ Get Education
+$education = $parsedResume->getEducation();
+if (count($education) > 0) {
+    foreach ($education as $edu) {
+        echo $edu->getLevel() . ', ' . $edu->getCourseTitle() . ' at ' . $edu->getInstitution() . ' (' . date_format($edu->getStart(), 'Y') . ' - ' . date_format($edu->getEnd(), 'Y') . ')';
+    }
 }
 ```
 
