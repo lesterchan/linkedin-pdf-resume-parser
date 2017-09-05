@@ -345,4 +345,11 @@ class EducationTest extends AbstractSectionTest
         $this->assertEquals(2009, date_format($edu->getStart(), 'Y'));
         $this->assertEquals(2011, date_format($edu->getEnd(), 'Y'));
     }
+
+    public function testSharonJee()
+    {
+        $education = $this->parsePdf()->getEducation();
+
+        $this->assertEmpty($education);
+    }
 }

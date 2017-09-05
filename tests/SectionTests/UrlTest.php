@@ -11,115 +11,121 @@ class UrlTest extends AbstractSectionTest
 {
     public function testLesterChan()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/lesterchan', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/lesterchan', $url);
     }
 
     public function testMelvinLee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/zyml89', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/zyml89', $url);
     }
 
     public function testKwongHowOng()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/kwonghow', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/kwonghow', $url);
     }
 
     public function testLimCheeAun()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/cheeaun', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/cheeaun', $url);
     }
 
     public function testYuanChuanKee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/yuanchuan', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/yuanchuan', $url);
     }
 
     public function testBernardTraquena()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/bernardtraquena', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/bernardtraquena', $url);
     }
 
     public function testNicoArianto()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/nicoarianto', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/nicoarianto', $url);
     }
 
     public function testJunXiuChan()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/jun-xiu-chan-111181b0', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/jun-xiu-chan-111181b0', $url);
     }
 
     public function testRandySugianto()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/randy-sugianto-21aa558', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/randy-sugianto-21aa558', $url);
     }
 
     public function testTingZhiLim()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/limtingzhi', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/limtingzhi', $url);
     }
 
     public function testXinyingLin()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/xinying-lin-994864148', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/xinying-lin-994864148', $url);
     }
 
     public function testWillisWee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/williswee', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/williswee', $url);
     }
 
     public function testCelineWong()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/celine-wong', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/celine-wong', $url);
     }
 
     public function testWanLinCheung()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/wan-lin-cheung-460680109', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/wan-lin-cheung-460680109', $url);
     }
 
     public function testLouisaChiew()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/louisachiew', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/louisachiew', $url);
     }
 
     public function testLisaTjide()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/lisatjide17', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/lisatjide17', $url);
     }
 
     public function testSimYanTing()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/simyanting', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/simyanting', $url);
     }
 
     public function testAndrewWang()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/wwerdna', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/wwerdna', $url);
     }
 
     public function testMingHaoTeoh()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('https://www.linkedin.com/in/minghaoteoh', $result->getUrl());
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/minghaoteoh', $url);
+    }
+
+    public function testSharonJee()
+    {
+        $url = $this->parsePdf()->getUrl();
+        $this->assertEquals('https://www.linkedin.com/in/sharonjee', $url);
     }
 }

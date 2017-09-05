@@ -11,115 +11,120 @@ class NameTest extends AbstractSectionTest
 {
     public function testLesterChan()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Lester Chan', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Lester Chan', $name);
     }
 
     public function testMelvinLee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Melvin Lee', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Melvin Lee', $name);
     }
 
     public function testKwongHowOng()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Kwong How Ong', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Kwong How Ong', $name);
     }
 
     public function testLimCheeAun()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Lim Chee Aun', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Lim Chee Aun', $name);
     }
 
     public function testYuanChuanKee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Yuan Chuan Kee', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Yuan Chuan Kee', $name);
     }
 
     public function testBernardTraquena()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Bernard Traquena', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Bernard Traquena', $name);
     }
 
     public function testNicoArianto()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Nico Arianto', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Nico Arianto', $name);
     }
 
     public function testJunXiuChan()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Jun Xiu Chan', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Jun Xiu Chan', $name);
     }
 
     public function testRandySugianto()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Randy Sugianto', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Randy Sugianto', $name);
     }
 
     public function testTingZhiLim()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Ting Zhi Lim', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Ting Zhi Lim', $name);
     }
 
     public function testXinyingLin()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Xinying Lin', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Xinying Lin', $name);
     }
 
     public function testWillisWee()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Willis Wee', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Willis Wee', $name);
     }
 
     public function testCelineWong()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Celine Wong', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Celine Wong', $name);
     }
 
     public function testWanLinCheung()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Wan Lin Cheung', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Wan Lin Cheung', $name);
     }
 
     public function testLouisaChiew()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Louisa Chiew', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Louisa Chiew', $name);
     }
 
     public function testLisaTjide()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Lisa Tjide', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Lisa Tjide', $name);
     }
 
     public function testSimYanTing()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Sim Yan Ting', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Sim Yan Ting', $name);
     }
 
     public function testAndrewWang()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('Andrew Wang', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Andrew Wang', $name);
     }
 
     public function testMingHaoTeoh()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('minghao teoh', $result->getName());
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('minghao teoh', $name);
+    }
+    public function testSharonJee()
+    {
+        $name = $this->parsePdf()->getName();
+        $this->assertEquals('Sharon Jee', $name);
     }
 }

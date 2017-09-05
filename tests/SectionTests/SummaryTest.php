@@ -11,114 +11,121 @@ class SummaryTest extends AbstractSectionTest
 {
     public function testLesterChan()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testMelvinLee()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testKwongHowOng()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testLimCheeAun()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testYuanChuanKee()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testBernardTraquena()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testNicoArianto()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testJunXiuChan()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testRandySugianto()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testTingZhiLim()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testXinyingLin()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testWillisWee()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
 
     public function testCelineWong()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testWanLinCheung()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testLouisaChiew()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testLisaTjide()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testSimYanTing()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
     }
+
     public function testAndrewWang()
     {
-        $result = $this->parsePdf();
-        $this->assertEquals('N/A', $result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 
     public function testMingHaoTeoh()
     {
-        $result = $this->parsePdf();
-        $this->assertNotEmpty($result->getSummary());
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertNotEmpty($summary);
+    }
+
+    public function testSharonJee()
+    {
+        $summary = $this->parsePdf()->getSummary();
+        $this->assertEquals('N/A', $summary);
     }
 }

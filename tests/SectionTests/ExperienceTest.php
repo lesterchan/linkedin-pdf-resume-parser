@@ -12,9 +12,7 @@ class ExperienceTest extends AbstractSectionTest
 {
     public function testLesterChan()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Head of Engineering', $experience->getTitle());
@@ -61,9 +59,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testMelvinLee()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Web Engineer', $experience->getTitle());
@@ -89,9 +85,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testKwongHowOng()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Web Engineer', $experience->getTitle());
@@ -124,9 +118,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testLimCheeAun()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Senior Software Engineer', $experience->getTitle());
@@ -173,9 +165,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testYuanChuanKee()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Data Engineer', $experience->getTitle());
@@ -222,9 +212,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testBernardTraquena()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Senior Software and DevOps Engineer', $experience->getTitle());
@@ -257,9 +245,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testNicoArianto()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Data Engineer', $experience->getTitle());
@@ -306,9 +292,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testJunXiuChan()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('iOS Engineer', $experience->getTitle());
@@ -348,9 +332,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testRandySugianto()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Programmer', $experience->getTitle());
@@ -362,9 +344,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testTingZhiLim()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Data Analyst Intern', $experience->getTitle());
@@ -383,9 +363,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testXinyingLin()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Data Analyst', $experience->getTitle());
@@ -403,9 +381,7 @@ class ExperienceTest extends AbstractSectionTest
     }
     public function testWillisWee()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('CEO and founder', $experience->getTitle());
@@ -452,9 +428,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testCelineWong()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Product Manager', $experience->getTitle());
@@ -501,9 +475,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testWanLinCheung()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('UI/UX Designer', $experience->getTitle());
@@ -536,9 +508,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testLouisaChiew()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Product Marketing Lead (Jobs)', $experience->getTitle());
@@ -564,9 +534,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testLisaTjide()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Product Marketer (Employers)', $experience->getTitle());
@@ -613,9 +581,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testSimYanTing()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Growth product manager, Tech in Asia Jobs', $experience->getTitle());
@@ -662,9 +628,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testAndrewWang()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Chief Operating Officer', $experience->getTitle());
@@ -711,9 +675,7 @@ class ExperienceTest extends AbstractSectionTest
 
     public function testMingHaoTeoh()
     {
-        $result = $this->parsePdf();
-
-        $experiences = $result->getExperiences();
+        $experiences = $this->parsePdf()->getExperiences();
 
         $experience = $experiences[0];
         $this->assertEquals('Head of BD, Jobs', $experience->getTitle());
@@ -742,5 +704,12 @@ class ExperienceTest extends AbstractSectionTest
         $this->assertEquals('January 2007', date_format($experience->getStart(), 'F Y'));
         $this->assertEquals('April 2011', date_format($experience->getEnd(), 'F Y'));
         $this->assertNotEmpty($experience->getSummary());
+    }
+
+    public function testSharonJee()
+    {
+        $experiences = $this->parsePdf()->getExperiences();
+
+        $this->assertEmpty($experiences);
     }
 }
