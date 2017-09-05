@@ -1,0 +1,163 @@
+{
+    "name": "Nico Arianto",
+    "email": "nico.arianto@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/nicoarianto",
+    "summary": "Objective:Challenges my experience, knowledge, and management skills within the company to create and improve the products or solutions that will help the customer or end-user life by archiving company goals.Achievement:- 12 years experiences in IT company on research, development, support, delivery, pre-sales, and technology consultant across South East Asia while focusing on Indonesia, Singapore, China, and Malaysia.- Deep knowledge of the product's technology for Data ELT Pipeline, Content Storage Management, Commodity Trading, Risk Management, Automotive Manufacture and Business Dealer Online.- Great visibility to manage the infrastructure, resources and vendor, and capability to lead and guide the development teams on projects quality and delivery.- Good analyst and understanding of latest technology to do a product or solution architecture. Responsibility for the product technology research and troubleshot to support products delivery.- Strong lead skill to manage, guide and drive the development teams in different countries such Indonesia, Singapore, Malaysia, United States, and China, by exposing their strong point to take in charge of their respected specialties and responsibility.",
+    "experiences": [
+        {
+            "title": "Data Engineer",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": {
+                "date": "2017-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Senior Data Engineer",
+            "organisation": "honestbee",
+            "summary": "- A senior member and reviewer of the Data team.\\r\\n- Team member of the Kanban product development.\\r\\n- Technical lead and architect of Data pipeline infrastructure.\\r\\n- Designer member of Data Warehouse.\\r\\n- DevOps of cloud computing services for Data infrastructure.",
+            "start": {
+                "date": "2017-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2017-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Senior Member of Technical Staff",
+            "organisation": "Oracle",
+            "summary": "- Technical lead and a member of the development team.\\r\\n- Team member of the Scrum software development.\\r\\n- Project code reviewer and quality control with Continuous Inspection in place.\\r\\n- Partially as DevOps to support Continuous Integration \/ Delivery, and automation of the product\\r\\ninstallation and upgrade process.\\r\\n- Self-study and researcher as a technology radar to update the team about the latest technology\\r\\nor architecture trend in recent year.",
+            "start": {
+                "date": "2015-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2017-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "AVP, Technology",
+            "organisation": "JustCommodity Software Solutions",
+            "summary": "- Leading the products technology to support the CTRM business requirement.\\r\\n- Managing the Research and Development department.\\r\\n- Guiding Development department to solve the business modules challenges.\\r\\n- Research and design the built-in components to support the delivery of business modules or\\r\\ndevelopment team.\\r\\n- Communicate and work together with Development, Delivery, Marketing and Product \/ Business\\r\\nTeam for project delivery.",
+            "start": {
+                "date": "2015-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Lead Software Engineer",
+            "organisation": "JustCommodity Software Solutions",
+            "summary": "- Technology consultant to support CTRM.\\r\\n- Manage the products technology features.\\r\\n- Enrich the products to follow up with the latest update or availability of new ready third-party\\r\\nproducts.\\r\\n- Guide the development team to do any product framework baselines changes.\\r\\n- Pre-sales support.\\r\\n- Single Sign-On (SSO) implementation.\\r\\n- Embedded LDAP v3 implementation.\\r\\n- Messaging broker server implementation to support integration with client third party\\r\\napplications.",
+            "start": {
+                "date": "2013-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Senior Software Engineer",
+            "organisation": "JustCommodity Software Solutions",
+            "summary": "- Support existing client issues via email or track issues.\\r\\n- Analyst the business requirements and implement the modules to the products.\\r\\n- Pre-sales support.",
+            "start": {
+                "date": "2010-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Technology Trend Analyst",
+            "organisation": "PT Astra Honda Motor",
+            "summary": "- Develop in-house products to support the raw materials stock, manufacture process, claim or risk management, main dealer distribution.\\r\\n- Liferay implementation to replace the existing internal portal.",
+            "start": {
+                "date": "2005-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor's Degree",
+            "course_title": "Computer Science",
+            "institution": "Bina Nusantara University, Jakarta",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2001-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "High School",
+            "course_title": "Natural Sciences",
+            "institution": "Bunda Hati Kudus",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "1999-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2001-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Best Graduates 2005",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

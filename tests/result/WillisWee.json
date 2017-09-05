@@ -1,0 +1,130 @@
+{
+    "name": "Willis Wee",
+    "email": "williswee@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/williswee",
+    "summary": "The adrenaline to build something from scratch is god damn fulfilling.",
+    "experiences": [
+        {
+            "title": "CEO and founder",
+            "organisation": "Tech in Asia (YC W15)",
+            "summary": "Tech in Asia (YC W15) is a media, events, and jobs platform for Asia\u2019s tech communities.\\r\\nOur investors are Softbank, Indosat, East Ventures, Simile VC, Fenox VC, Y Combinator, and Facebook co-\\r\\nfounder Eduardo Saverin.\\r\\nWe are hiring: https:\/\/www.techinasia.com\/companies\/tech-in-asia",
+            "start": {
+                "date": "2010-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Account Servicing Intern",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2010-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Business Development Executive",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2009-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Co-founder",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2004-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Sales Executive",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2005-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2006-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Sales Executive",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2003-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2003-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor's degree",
+            "course_title": "Marketing",
+            "institution": "Singapore Management University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "A level certification",
+            "course_title": "Theoretical and Mathematical Physics",
+            "institution": "NYJC",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2003-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

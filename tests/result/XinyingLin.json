@@ -1,0 +1,66 @@
+{
+    "name": "Xinying Lin",
+    "email": "ccyouki@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/xinying-lin-994864148",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Data Analyst",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "title": "Assistant Engineer",
+            "organisation": "China Telecom",
+            "summary": "Configured rules and conditions for commission settlement system based on\\r\\npolicies and requirements; system maintenance and optimization to improve the performance of system; data analysis and data auditing to ensure the accuracy of users\u2019 monthly bills; reviewed and analysed marketing requirements from different departments and\\r\\nproposed IT solutions that meet marketing requirements.",
+            "start": {
+                "date": "2012-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Master's degree",
+            "course_title": "Information Science\/Studies",
+            "institution": "Nanyang Technological University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2016-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2017-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Bachelor's degree",
+            "course_title": "Computer Science",
+            "institution": "Fuzhou University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2008-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

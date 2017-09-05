@@ -1,0 +1,103 @@
+{
+    "name": "Melvin Lee",
+    "email": "zy@zy.sg",
+    "url": "https:\/\/www.linkedin.com\/in\/zyml89",
+    "summary": "Web engineer; comfortable with various parts of the stack. Passionate about learning web technologies and building web applications since the age of 13.",
+    "experiences": [
+        {
+            "title": "Web Engineer",
+            "organisation": "Tech in Asia",
+            "summary": "Tech in Asia (YC W15) is a media, events, and jobs platform for Asia\u2019s tech communities.\\r\\nPart of the web engineering team that is in charge of development and maintenance of Tech in Asia's international website.\\r\\n- Maintain startup \/ investor database & API for jobs platform - powered by Laravel (PHP).\\r\\n- Maintain media front-end - powered by React.\\r\\n- Build and deploy serverless applications with AWS Lambda + API Gateway.\\r\\n- Lead efforts to rebuild Tech in Asia's front-end using React - launched in December 2015.",
+            "start": {
+                "date": "2015-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Software Developer",
+            "organisation": "UXArmy Pte. Ltd.",
+            "summary": "- Developed core web application with Yii Framework (PHP \/ MySQL).\\r\\n- Developed other technologies for task-based usability testing using Node and Python.",
+            "start": {
+                "date": "2013-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Designer \/ Developer",
+            "organisation": null,
+            "summary": "- Designed and developed websites for numerous companies.\\r\\n- Sites are usually deployed under WordPress CMS.\\r\\n- Developed customized WordPress plugins based on client needs.",
+            "start": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor's Degree",
+            "course_title": "Computing (Honours, Second Upper) in Communications and Media, Computer Science",
+            "institution": "National University of Singapore",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Diploma in Digital Media (Merit)",
+            "course_title": null,
+            "institution": "Singapore Polytechnic",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "DPG Awards 2011 - Excellence Award in Dedication (Individual), Silver Medal (Web Design), Book Prize - 2nd Prize, 6th School of Computing Term Project Showcase - 2nd Prize, Dean's List",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "name": "Lim Chee Aun",
+    "email": "cheeaun@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/cheeaun",
+    "summary": "Product engineer and designer, focusing on front-end architecture, user interface design, user experience and product development.",
+    "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": {
+                "date": "2016-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Software Engineer",
+            "organisation": "Viki, Inc.",
+            "summary": "- Worked on internal tools and content management systems with Ember.js, Ember Model and Ember Data. Wrote integration tests using QUnit with Rosie.js for setting test data and Sinon.js for mocks and stubs.\\r\\n- Designed a better user experience for power users in the CMS, with the goal of optimizing the workflow of internal operations.\\r\\n- Worked on the first Chromecast V1 integration with the video player on the web site and the receiver.\\r\\n- Worked on setting a basic and early prototype application for Apple TV, using TVML and TVJS.\\r\\n- Involved in the team to implement a responsive website.",
+            "start": {
+                "date": "2013-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Senior Front-End Developer",
+            "organisation": "Wego.com",
+            "summary": "- Worked on a lot of travel distribution partner sites, with integration of the search form, results listing interface and site widgets.\\r\\n- Built a mobile-only website for Flights and Hotels, focusing on real-world performance, touch interaction and user experience on small-screen devices.\\r\\n- Built a native Window 8 app for Hotels and Travel Deals, coded with web technologies (HTML\/CSS\/JS\/\\r\\nWinJS), fully optimized for touch tablets and desktops.\\r\\n- Involved in the team to implement a responsive website, with strong focus on performance, responsive design for multiple screen sizes, and full localization for over 30 languages including RTL (right-to-left) languages.",
+            "start": {
+                "date": "2009-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Freelance CSS Developer",
+            "organisation": null,
+            "summary": "One of outsource members, specialised in conversion work from static (Photoshop) designs to HTML\/CSS\/JS templates.",
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Developer",
+            "organisation": null,
+            "summary": "- Front-end developer and designer for a social networking platform built with Ruby on Rails. Learned to work with Ruby code, Rails templating system and MVC concept. Migrated from the Subversion (SVN) mindset to Git version control system.\\r\\n- Converted whole bunch of Prototype scripts (the default JavaScript framework used in Ruby on Rails) to jQuery while maintaining existing features and compatibility.\\r\\n- Worked with the team on another social sharing and bookmarking platform. Created a Firefox extension and an Internet Explorer Accelerator for users to easily share links from their web browsers.",
+            "start": {
+                "date": "2008-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "CSS Web Designer",
+            "organisation": null,
+            "summary": "- Implemented web standards across multiple web sites and fixed various CSS-related browser bugs.\\r\\n- Designed usable web templates and mock-ups for marketing and e-commerce web sites, with proven marketing design guidelines.\\r\\n- Part of the team to work on a high-traffic social bookmarking site. Designed several mock-ups for landing pages, site widgets and badges, including icons.",
+            "start": {
+                "date": "2006-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2007-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor",
+            "course_title": "Computer Engineering",
+            "institution": "Universiti Tunku Abdul Rahman",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2008-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

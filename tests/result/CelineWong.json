@@ -1,0 +1,148 @@
+{
+    "name": "Celine Wong",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/celine-wong",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Product Manager",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": {
+                "date": "2017-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Full Stack Web Developer (Student)",
+            "organisation": "General Assembly",
+            "summary": "Student in an immersive 12-weeks program\\r\\n\u2022 Built full-stack web applications using technologies such as, - Front-end: HTML\/CSS, JavaScript, JQuery as well as ReactJS - Back-end: Node.js and Ruby on Rails - Database: PostgresSQL\\r\\n\u2022 Trained in responsive\/UX design, wire-framing & basics of product development\\r\\nA total of 1 team & 3 individual projects were undertaken\\r\\n\u2022 Conceptualized and developed each project into deployable web applications",
+            "start": {
+                "date": "2016-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Account Manager \/ Digital Strategist",
+            "organisation": "Up BrandBuzz Pte Ltd",
+            "summary": "Developed agency's digital marketing capabilities. Engaged and maintained stakeholder relations for Local and Regional accounts such as BCA, Abbott, Tiger Balm, IDA, SingTel and Yahoo!\\r\\n\u2022 Identifies prospects and opportunities through active business development and new business pitching\\r\\n\u2022 Developed pitches and proposals for potential and existing clients\\r\\n\u2022 Managed project budgets and timelines\\r\\n\u2022 Worked with creative team and production partners to produce print and television commercials\\r\\n\u2022 Conceptualised and developed digital strategy to meet marketing objectives\\r\\n\u2022 Worked with research partners on pilot testing, pre-campaign and post campaign research on campaigns",
+            "start": {
+                "date": "2015-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Digital Strategist",
+            "organisation": "GOODSTUPH Private Limited",
+            "summary": "Crafting of social currency & awareness amplification strategies via digital\/onground\/integrated solutions as key lead for HTC, NARS Cosmetics and William Grant & Sons, and supporting lead for MINI, Sephora and The Ascott Group\\r\\n\u2022 Conceptualised, developed social media content such as branding videos, photo shoots, microsites, and tabs\\r\\n\u2022 Provision of strategic branding counsel inclusive of media buy strategy, creative direction and influencer engagement to meet various marketing objectives\\r\\n\u2022 Drafted press releases, media pitches and EDMs\\r\\n\u2022 Identifies prospects and opportunities through active business development and new business pitching\\r\\n\u2022 Day-to-day involves social media listening, art direction, copy writing, content creation and conversation management",
+            "start": {
+                "date": "2013-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2014-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Marketing and Communications Intern",
+            "organisation": "The Fullerton Hotel & The Fullerton Bay Hotel",
+            "summary": null,
+            "start": {
+                "date": "2011-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Freelance Video Editor",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2008-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Full Stack Web Development Immersive",
+            "course_title": null,
+            "institution": "General Assembly",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2016-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Bachelor of Social Sciences",
+            "course_title": "Psychology",
+            "institution": "Singapore Management University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Advertisting To The Consumer, Print Finalist",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

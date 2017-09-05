@@ -1,0 +1,109 @@
+{
+    "name": "Kwong How Ong",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/kwonghow",
+    "summary": " Passionate about building tech products\u2014especially the kind that I have personal connection with. (A litmus test for that would be: can I recommend it to my friends and family, and have some of them benefit from it?) Note: I\u2019m big on personal connection, so if you\u2019re sending me a LinkedIn message, please include the word \u201csheep\u201d so I know it\u2019s not a template. If that\u2019s not in line with your policy, I\u2019m probably not the right guy :)",
+    "experiences": [
+        {
+            "title": "Web Engineer",
+            "organisation": "Tech in Asia",
+            "summary": "Tech in Asia (YC W15) is a media, events, and jobs platform on a mission to build and serve Asia\u2019s tech and startup community. We\u2019re on this mission to help the tech and startup community move forward.\\r\\n\u2022 Migrated Tech in Asia\u2019s web frontend from WordPress theme to React.js Single-Page Application (SPA)\\r\\n\u2022 Lead Engineering efforts to build and launch Tech in Asia Jobs\\r\\n\u2022 Built internal tool to help our Talent Advocates source talents for client companies hiring via our Community Recruitment service",
+            "start": {
+                "date": "2015-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Software Engineering Analyst",
+            "organisation": "Accenture",
+            "summary": "\u2022 Analysed system Change Requests from the Client to identify possible implications on other system modules and to assess the effort required, providing advice on the feasibilities\\r\\n\u2022 Helped with the peer review of fixes and tests done by my team mates to ensure quality of fixes\\r\\n\u2022 Worked closely with the Client to fulfil Service Requests, such as the extraction of backend transactional data for Business Intelligence analysis\\r\\n\u2022 Liaised frequently with the O&S teams of the 4 external systems (maintained by other vendors), which interface with our system, to investigate and resolve user issues",
+            "start": {
+                "date": "2014-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Associate Software Engineer",
+            "organisation": "Accenture",
+            "summary": "\u2022 Provided maintenance support as a techno-functional consultant for a SAP-based procurement system used by the Singapore Government, achieving >99.5% system availability\\r\\n\u2022 Closed 100% of tickets assigned to me within Service Level Agreement deadlines; all bug fixes were deployed successfully in Production environment with no re-open tickets\\r\\n\u2022 Performed impact assessments for system issues, providing holistic solutions and identifying test scenarios with wide coverage for the fixes \\r\\n\u2022 Provided ~200 end-users with technical helpdesk support, answering day-to-day queries on the usage of system functions",
+            "start": {
+                "date": "2012-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2014-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Graduate Trainee",
+            "organisation": "Accenture",
+            "summary": "\u2022 Supported the implementation of a .NET-based system for a Singapore Government statutory board as a tester in the Business Intelligence team\\r\\n\u2022 Picked up Client business process within a short span of time in order perform my testing duties and contribute to the team\\r\\n\u2022 Executed test scripts and reported found issues to the development team during the System Integration Testing (SIT) phase, tracking them to closure, so as to help my team get ready for the User Acceptance Test (UAT) phase",
+            "start": {
+                "date": "2012-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor's Degree",
+            "course_title": "Computer Engineering",
+            "institution": "National University of Singapore",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2008-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Committee)",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": "Information Technology",
+            "course_title": null,
+            "institution": "Kungliga tekniska h\u00f6gskolan \/ KTH Royal Institute of Technology",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

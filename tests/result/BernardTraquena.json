@@ -1,0 +1,100 @@
+{
+    "name": "Bernard Traquena",
+    "email": "btraquena@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/bernardtraquena",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Senior Software and DevOps Engineer",
+            "organisation": "MigMe",
+            "summary": "# Maintains and develops the DCOS\/Mesosphere, Docker, Ansible, and Puppet based configuration and deployment of development environment that contains all the open-source technology stack and applications used by MigMe platform.\\r\\n# Subject matter expert in the current staging and production infrastructure covering the following: puppet configurations, Apache configurations, load balancers(IPVS, HAProxy), MogileFS, ElasticSearch, RabbitMQ, Couchbase, MySQL percona. Also has in depth knowledge of the entire MigMe architecture of the applications.\\r\\n# Setup automated Continuous Integration and Continuous Deployment\/Delivery (Jenkins\/Rundeck) for all applications to multiple environments (dev,qalab,staging,prod): java backend server apps (standalone chat and blog REST app service), Web applications (php, jsclient), Android, BlackBerry, and IOS mobile apps.\\r\\n# Transformed the build process of the existing applications (client, server-side core platform, custom libraries for mobile client) from ant build to maven build. Recently develop the SBT build for our scala based projects.\\r\\n# Managed and developed scripts written in bash,python,and perl for data import to hadoop\/hive big data storage from different sources ( apache logs, application logs, mysql tables). Designed and optimised hive schema structure to maximise map-reduce hadoop performance.\\r\\n# Build performance load testing application for java REST application services using python multi-\\r\\nmechanize load testing framework and running it on AWS ec2 environment.\\r\\nNew Skills Gained\\r\\n# Advance Python programming such multi-processing\/threading, python boto3, bpython tool, etc.\\r\\n# NoSQL( Couchbase\/Memcache, Redis, MongoDB), RabbitMQ messaging, BigData Hadoop, MySQL, AWS(CloudFront,S3,\\r\\nEC2, EBS,SNS,SES), Cassandra\\r\\n# Automate continuous integration for all server-side applications using jenkins and git\/svn repository hooks \\r\\n# Infrastructure Management and Monitoring: AWS EC2, Puppet, ELK Logstash, Nagios, Cacti, Graphite.",
+            "start": {
+                "date": "2011-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Senior IT Analyst",
+            "organisation": "National Library Board\/Emerion Globesoft",
+            "summary": "# Developed web services for Library System using Java Axis2 and ASP.Net C# WSCF and WSE framework. Implemented JUnit for testing the core logic of the web services.\\r\\n# Maintains and develop enhancements on tomcat web application Volunteer Management System built on Java Struts framework and MySQL database backend.\\r\\n# Creates and maintain back-end Perl and Shell scripts for automated reports, web services functional testing, and other utilities.\\r\\n# Test and create implementation deployment plan of Java web application running on Apache Tomcat server.",
+            "start": {
+                "date": "2010-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Senior Programmer Analyst",
+            "organisation": null,
+            "summary": "# Developed front-office web application module in POEMS Admin using ASP.Net C# web service, HTML5 and JQuery framework, and MS-SQL stored procedures.\\r\\n# Fix bugs of some legacy ASP classice web applications.\\r\\n# Migrated the web application database security from SQL Connections to integrated Windows\\r\\nAuthentication. These involve more or less 1,000 plus of stored procedures coming from different\\r\\ndatabases.\\r\\n# Developed custom load testing web application using Perl script to simulate thousands of concurrent\\r\\nconnections\\r\\n# Maintains and configure awstats web analytics perl application.",
+            "start": {
+                "date": "2009-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Senior Operations Manager and Developer",
+            "organisation": null,
+            "summary": "Technical Operations Senior Manager  * I am responsible of the organizational structure planning, strategic and capacity planning, resource and people management, minor project management, staffs\u2019 performance evaluation, and oversight of the Technical Operations Team. I also serve as the subject matter expert for the technical operations and mobile messaging development. To inspire, and motivate the staffs, I do mentoring and coaching. I also do supervision and training to support engineers in system and network administration especially in UNIX\/\\r\\nLinux administration, installation, backup and restoration, ITIL practices, etc.\\r\\nTeam Lead Mobile Application Developer, Pioneer and one of the main authors of the core SMS and MMS Mobile Messaging delivery platform services. I have extensive applications implementation on UNIX\/Linux, Perl, PHP, Java core, and MySQL database. I developed various reports and stats that are essential to the business performance analysis. I coached and trained newly hired technical support engineers.\\r\\nKey Projects and Achievements\\r\\n# Short and Multimedia Messaging Delivery Platform Service:\\r\\n# Perl, Java, PHP, and Shell scripts Backend Applications\\r\\n# MMS EAIF Protocol (Core Java), Nokia CIMD2LAN\/WAN Networks\\r\\n# Data Mining, Reports and Stats using Perl and PHP\\r\\n# Revenue Reports and Stats (ARPU, Revenue Sharing,etc) # Traffic logs analysis and volume\\r\\n# Web Applications (Apache, MySQL, PHP, Perl CGI, Ajax, JQuery) # WAP content browsing applications\\r\\n# HTTP to SMS web applications\\r\\n# MySQL Database Datamanager\\r\\n# Web Utilities\\r\\nMobile Messaging Platform\\r\\n# Adhoc Applications and Stats\\r\\n# (SMS)Short Messaging Service Applications\\r\\n# Textmail \u2013 An email-to-sms and sms-to-email messaging applicationbuilt on top of various open- source technologies: Perl, PHP, MySQL, and Apache\\r\\n# Smart Bemybuddy Chat and SimulTXT Service \u2013 A mobi",
+            "start": {
+                "date": "2005-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Computer Science",
+            "course_title": "Computer Science",
+            "institution": "Ateneo de Naga University",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "1995-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "1999-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Bachelor of Computer Science",
+            "course_title": "Computer Science",
+            "institution": "Ateneo de Naga University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "1995-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "1999-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

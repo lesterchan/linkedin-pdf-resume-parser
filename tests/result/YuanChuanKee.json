@@ -1,0 +1,208 @@
+{
+    "name": "Yuan Chuan Kee",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/yuanchuan",
+    "summary": "A scientist-engineer who is interested in technology that transforms how we work, live and play.",
+    "experiences": [
+        {
+            "title": "Data Engineer",
+            "organisation": "Tech in Asia",
+            "summary": "Reducing entropy at Tech in Asia. From zero to one.\\r\\nAs the first data engineer, I have been working on data strategies, data infrastructure and instrumentation, topic model, information hierarchies to develop a cohesive view across all Tech in Asia products.",
+            "start": {
+                "date": "2016-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Analytics Manager",
+            "organisation": "SP Group",
+            "summary": "As the first analytics hire in SP, I managed the Data Analytics Resource Lab that is established under SP Engineering Board to support the Data Analytics initiatives.\\r\\n- Engaged various business and engineering units to understand their operations, business problems and the available data and proposed various analytics solution such as propensity modelling and geospatial analysis\\r\\n- Completed a Proof-of-Value project that employed geospatial analytical techniques (based on PostgreSQL\/\\r\\nPostGIS and Tableau) for the Gas Condition Monitoring Team to develop spatial and statistical metrics to establish objective evaluation of operational incidents to optimise maintenance regime\\r\\n- Proposed the modernisation of data infrastructure, data governance and modern BI software training frameworks for working committee in view of advancing towards data-driven decision making processes and self-service analytics",
+            "start": {
+                "date": "2015-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Consultant (Big Data and Analytics)",
+            "organisation": "IBM",
+            "summary": "Business Analytics & Strategy Consultant in Global Business Services\\r\\nBig Data and Analytics Consultant\\r\\nOur team designed and deployed an on-premise, bare metal, Hive-based data warehouse solution based on IBM BigInsights (IBM\u2019s Hadoop distribution) and InfoSphere Streams for one of the largest telcos in the Asia Pacific region  - Set up the clusters and optimised the kernel, network and disk performance for Hadoop   - Streamed and processed up to 12.5 TBs (uncompressed) of mobile network data daily into the Hadoop cluster as Parquet format  - Analysed the data and develop use cases for the client\u2019s consumer and marketing teams to leverage the data for behavioural insights\\r\\nProvided pre-sales support for a telco client to design a Hadoop solution (based on IBM Hadoop distribution) to replace their Teradata\u2019s solution which will increase the data processing throughput by more than 50% with no changes required to existing SQL scripts and significant cost saving even as data scales\\r\\nProvided account support for one of the largest retail clients in Singapore to understand their data availability and enablement of analytics use cases\\r\\nBusiness Analyst\\r\\n- Engaged the business users of a government-chartered organisation to understand the business processes and functions of a finance system\\r\\n- Delivered the functional requirements for one of the most complex processes involving the computation of payout sum to the beneficiaries and the form of payment based on the business rules and regulations",
+            "start": {
+                "date": "2013-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Research Assistant",
+            "organisation": "National Cancer Centre Singapore",
+            "summary": "Recruitment of breast cancer patients into a study on chemotherapy-induced cognitive impairment to investigate the prevalence and severity of cognitive impairment resulting from chemotherapy regimen in Asian population.\\r\\nAdministered an objective neuropsychology battery Headminder\u2122 and various quality of life and cognitive-\\r\\nrelated surveys (FACTCog and Beck Anxiety Inventory) with patients.\\r\\nPerformed statistical analysis of results, with SPSS Statistics, to study the patients' cognitive performance (memory, response and mental agility) and their health during the course of chemotherapy",
+            "start": {
+                "date": "2012-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Research Engineer",
+            "organisation": "National University of Singapore",
+            "summary": "GSK-EDB Trust Fund Project on Understanding, Screening And Optimizing Single-Step Crystallization And Granulation Of API By Emulsion-Based Processing - A Combined Microfluidics And Multi-Scale Modeling Approach\\r\\nStudied the mechanism of functionalised silica nanoparticles on crystal polymorphism in emulsion-based evaporative crystallisation",
+            "start": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Data Visualisation Scientist",
+            "organisation": "Genome Institute of Singapore",
+            "summary": "Synthesised novel visualisations to visualise patterns and relationships (mutations, SNP, copy number variations, etc) from cancer genome using Circos\\r\\nDeveloped a wrapper module, in Perl, that streamlines the analytical pipelines; available on open-source; provide tutorials and guides to assist users to install and utilise the software.",
+            "start": {
+                "date": "2011-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Volunteer Research Assistant",
+            "organisation": "National University of Singapore",
+            "summary": "An independent research project on an in vitro fertilisation biomedical device.\\r\\nDeveloped an agent-based simulation algorithm in MATLAB to study the movement of active swimming organisms in confined geometries\\r\\nUtilised the simulation to study in silico spermatozoa movement through a \"device\" with increasing resistance for a microfluidic in vitro fertilisation application\\r\\nAlso involved in the fabrication of the actual physical microfluidic device for experimental works",
+            "start": {
+                "date": "2011-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Technical Service Engineering Intern",
+            "organisation": "Merck",
+            "summary": "Involved in the API Cleaning Improvement Project at Tuas West Facility\\r\\n- Verified the Cleaning Boundaries of equipment trains of multi-products facilities\\r\\n- Line verifications on Product-Contact equipment\\r\\n- Preparation of Installation Qualification protocols\\r\\n- Performed verification on ISO drawings and material certifications provided by contractors\\r\\n- Determination of new surface areas of modified facilities for MRAL calculations\\r\\n- HAZOP study on modified equipment",
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Research Intern",
+            "organisation": null,
+            "summary": "Involved in the study of synthesising novel caged-bell structure Platinium-based noble metal nanoparticles for modern fuel cell applications\\r\\nInvolved in the operations of the 1st Nanos Today Conference held in Biopolis",
+            "start": {
+                "date": "2009-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Research Intern",
+            "organisation": null,
+            "summary": "Screening of chemical substrates for dry proline-catalysed aldol condensation.",
+            "start": {
+                "date": "2006-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2007-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor of Engineering (B.Eng.)",
+            "course_title": "Chemical and Biomolecular Engineering",
+            "institution": "National University of Singapore",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2011-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "GCE 'A' Levels",
+            "course_title": "Triple Science",
+            "institution": "Pioneer Junior College",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2003-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2004-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Final Year Project, 1st Prize in Chemical and Biological System Engineering, Academic Achievement Award, Principal's List, 3rd Prize (Open Category) for Changi Airport Hackathon",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

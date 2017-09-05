@@ -1,0 +1,92 @@
+{
+    "name": "Ting Zhi Lim",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/limtingzhi",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Data Analyst Intern",
+            "organisation": "National Council of Social Service (NCSS)",
+            "summary": "\u2022 Gathered and analyzed various datasets to build a forecasting model to predict the manpower demand of the social service sector in Singapore\\r\\n\u2022 Provided recommendations on a simpler data collection format for more accurate analysis",
+            "start": {
+                "date": "2016-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Sustainable Supply Chain Solutions (IT\/Analytics) Intern",
+            "organisation": null,
+            "summary": "\u2022 Conceptualized and developed a warehouse energy benchmarking web application, DHL Energy Certificate\\r\\n\u2022 Provided a standardized approach to compute and compare the efficiency index of warehouses across different locations, sizes and sectors",
+            "start": {
+                "date": "2015-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor of Science (BSc)",
+            "course_title": "Information Systems",
+            "institution": "Singapore Management University",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2013-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2017-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Diploma with Merit",
+            "course_title": "Business Information Technology",
+            "institution": "Ngee Ann Polytechnic",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Dean's List, 1st Runner Up in InnovateIT Business Technology Case Challenge, 3rd Most Outstanding Performance",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

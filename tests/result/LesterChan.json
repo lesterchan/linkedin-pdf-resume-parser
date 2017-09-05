@@ -1,0 +1,212 @@
+{
+    "name": "Lester Chan",
+    "email": "lesterchan@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/lesterchan",
+    "summary": "I am currently working in Tech in Asia as the Head of Engineering. I am in-charge of the development and scaling of Tech in Asia and its subsidiary sites.I hold a degree in Computing (Information Systems) from National University of Singapore as well as a diploma in Multimedia Technology from Singapore Polytechnic.Outside my day job, I am a WordPress plugin developer. I have developed a total of 23 WordPress plugins and my plugins have accumulated 12 million downloads. My plugins are being used by several fortune 500 companies like Coca-Cola, Xerox, Yahoo, Sony, Ford and Wall Street Journal.I am a firm believer in open source projects and hence all my plugins are open-sourced and being hosted on GitHub https:\/\/github.com\/lesterchan.I am also the founder of lesterchan.net. It is my personal website which contains my personal blog and portfolio. Over the years, I blog mainly about technology and gadgets and that has gotten me to the rank of the top 10 most influential tech bloggers in Singapore.My interests includes web development, blogging, watching movies and listening to music.",
+    "experiences": [
+        {
+            "title": "Head of Engineering",
+            "organisation": "Tech in Asia",
+            "summary": "Tech in Asia is an online technology media company based across Asia and the US and they cover the latest happenings in Asia's tech and startup scene. I head the engineering team to build product and features.",
+            "start": {
+                "date": "2014-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "WordPress Plugins Developer",
+            "organisation": "WordPress",
+            "summary": "-- Developed a total of 23 WordPress Plugins in PHP and MYSQL.\\r\\n-- Ranked the top three WordPress Plugin developers in the world.\\r\\n-- More than 12 million downloads for my WordPress Plugins.\\r\\n-- My WordPress Plugins are featured in WordPress books in different languages selling in different countries, such as WordPress for Dummies.\\r\\n-- Several Fortune 500 companies are using my WordPress Plugins such as Coca-Cola, Xerox, Yahoo, Sony, Ford, Wall Street Journal, etc.",
+            "start": {
+                "date": "2003-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Founder",
+            "organisation": "lesterchan.net",
+            "summary": "I am the founder of lesterchan.net. lesterchan.net is my personal blog and portfolio site. I blog on a regular basis about gadgets, technology and gaming. I am also the author of many popular WordPress plugins such as WP-Polls, WP-PageNavi, WP-PostRatings, WP-PostViews, WP-DBManager, etc.\\r\\nI also used to do freelance web developer during my school holidays, here are some of my freelance scripts which I coded for my personal use.\\r\\nYOURLS - Your Own URL Shortener (2008)\\r\\n-- Developed in PHP and MYSQL, it shortens long URLs which is supposed to be used in micro blogging such as Twitter.\\r\\nGaMerZ File Explorer (2006)\\r\\n-- Developed in PHP, it replaces the default folders and files listings in Apache HTTP Servers.\\r\\nGaMerZ error_log Cleaner (2005)\\r\\n-- Developed in PHP, it deletes all error_log files that are left behind by PHP in Apache HTTP Servers.",
+            "start": {
+                "date": "2003-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Senior Web Engineer",
+            "organisation": "migme",
+            "summary": "migme (previously known as mig33) is an open, social entertainment platform where everyday millions discover great stories and friends. I work as a Senior Web Engineer in migme's engineering team.",
+            "start": {
+                "date": "2010-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2014-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Developer",
+            "organisation": "Sedgwick Richardson (SEA) Pte Ltd",
+            "summary": "My internship company during university. Developed custom WordPress Plugins and Themes in PHP and MYSQL for Sedgwick Richardson's clients such as World Sport Group and Neptune Orient Lines.",
+            "start": {
+                "date": "2009-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Guest Speaker",
+            "organisation": null,
+            "summary": "Invited by The Digital Movement (TDM) to give a talk on \"WordPress as a blogging tool\".",
+            "start": {
+                "date": "2009-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Member",
+            "organisation": null,
+            "summary": "-- Gave a talk on \"WordPress Plugin Development with PHP\" for the group December 2007 meetup.\\r\\n-- Gave a talk on \"Developing Plugins For WordPress\" for the group June 2008 meetup.",
+            "start": {
+                "date": "2007-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2008-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Evangelist",
+            "organisation": null,
+            "summary": "Developed the company's corporate website and internal billing system in PHP and MYSQL.",
+            "start": {
+                "date": "2007-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2007-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Developer",
+            "organisation": null,
+            "summary": "Developed the company's customers database for internal use and corporate website with integration to e-\\r\\nNETS online payment in PHP and MYSQL.",
+            "start": {
+                "date": "2007-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2007-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "IT Executive",
+            "organisation": null,
+            "summary": "Developed the company's corporate website, http:\/\/firstfood.com.sg, in PHP and MYSQL.",
+            "start": {
+                "date": "2006-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2006-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Web Developer",
+            "organisation": null,
+            "summary": "My internship company during polytechnic. Developed an online education portal entitled, Max Interactive, in PHP and MYSQL.",
+            "start": {
+                "date": "2004-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2004-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Help Desk Support",
+            "organisation": "Crimson Logic Pte Ltd",
+            "summary": "Worked in Crimson Logic's call center as a help desk support for its products such as BizNet, TradeNet and LawNet.",
+            "start": {
+                "date": "2001-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2001-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor of Computing (Honors)",
+            "course_title": "Information Systems, Specialized in Services Science, Management and Engineering (SSME)",
+            "institution": "National University of Singapore",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2006-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Diploma in Multimedia Technology",
+            "course_title": null,
+            "institution": "Singapore Polytechnic",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2001-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2004-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "name": "Jun Xiu Chan",
+    "email": "junxiu92@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/jun-xiu-chan-111181b0",
+    "summary": "I craft mobile application",
+    "experiences": [
+        {
+            "title": "iOS Engineer",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": {
+                "date": "2017-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Product Designer",
+            "organisation": "99.co",
+            "summary": null,
+            "start": {
+                "date": "2016-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "iOS Engineer",
+            "organisation": "99.co",
+            "summary": null,
+            "start": {
+                "date": "2015-02-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "iOS Engineer",
+            "organisation": "Saleswhale",
+            "summary": null,
+            "start": {
+                "date": "2014-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "iOS Engineer",
+            "organisation": "buUuk Pte Ltd",
+            "summary": null,
+            "start": {
+                "date": "2013-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2014-10-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Electrical",
+            "course_title": "Electronics and Communications Engineering",
+            "institution": "Nanyang Polytechnic",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "WWDC'13 Scholarship Winner",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

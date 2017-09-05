@@ -1,0 +1,85 @@
+{
+    "name": "Louisa Chiew",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/louisachiew",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Product Marketing Lead (Jobs)",
+            "organisation": "Tech in Asia",
+            "summary": "Tech in Asia Jobs is in the business of helping people move forward - whether that comes in the form of more fulfilling work, great team mates, or a step closer to their company's mission. \\r\\nI lead a marketing team that introduces Tech in Asia Jobs to the region's tech & startup community. We help people learn about new opportunities outside of their network, and understand from users what makes them tick and why. \\r\\nMy responsibilities include: formulating and executing marketing strategies, user interviews, branding & positioning, and keeping the jobs marketplace steadily growing. ",
+            "start": {
+                "date": "2016-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Content Marketing",
+            "organisation": "Tech in Asia",
+            "summary": "I planned and executed the content marketing strategy for 4 Tech in Asia conferences that took place in Singapore, Bangalore, Tokyo, and Jakarta.\\r\\nYou can find introductions of past speakers and events here: https:\/\/www.techinasia.com\/profile\/louisa-chiew",
+            "start": {
+                "date": "2015-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Marketing and Business Development Assistant",
+            "organisation": "Omnicom Media Group Asia Pacific",
+            "summary": "As part of a lean team working out of Singapore, I took on a dual role to support all business development projects and branding\/communications for Omnicom Media Group, OMD, and PHD in APAC.\\r\\nThis entailed working with management to project manage business pitches regionally and worldwide, helping to craft compelling pitch decks, and pulling together RFPs.   \\r\\nIn addition, I aligned all internal and external communications with Omnicom Media Group\u2019s story. In my role, I was responsible for capturing further mindshare through the creation and development of assets including: social media platforms, videos, internal publications, ads, press releases, and sponsored events.",
+            "start": {
+                "date": "2014-03-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Business",
+            "course_title": "Marketing",
+            "institution": "Nanyang Technological University",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "A' Levels",
+            "course_title": null,
+            "institution": "Hwa Chong Instituition",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

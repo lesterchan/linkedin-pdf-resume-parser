@@ -1,0 +1,83 @@
+{
+    "name": "Wan Lin Cheung",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/wan-lin-cheung-460680109",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "UI\/UX Designer",
+            "organisation": "Tech in Asia",
+            "summary": null,
+            "start": {
+                "date": "2016-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "UI Designer",
+            "organisation": null,
+            "summary": "UI Designs and Prototyping for Mobile Applications & Websites.",
+            "start": {
+                "date": "2014-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Designer",
+            "organisation": null,
+            "summary": "Design materials for: BTL Advertising, Print Advertisement, Events, Roadshows, Web Advertising.",
+            "start": {
+                "date": "2010-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Game Artist",
+            "organisation": null,
+            "summary": "In-Game Graphics, Animations, UI Design for Mobile Games, Concept Art Illustration.",
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Digital Media Design",
+            "course_title": "Digital Arts",
+            "institution": "Nanyang Polytechnic",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": {
+                "date": "2004-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ]
+}

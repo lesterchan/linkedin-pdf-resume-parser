@@ -1,0 +1,165 @@
+{
+    "name": "Lisa Tjide",
+    "email": null,
+    "url": "https:\/\/www.linkedin.com\/in\/lisatjide17",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Product Marketer (Employers)",
+            "organisation": "Tech in Asia",
+            "summary": "- Managing the growth of users on Tech in Asia Jobs platform. \\r\\n- Work with tech companies and startups to hire their team members through Tech in Asia Jobs",
+            "start": {
+                "date": "2016-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": null
+        },
+        {
+            "title": "Business Development Executive, Emerging Business",
+            "organisation": "StarHub",
+            "summary": "- Managed, engaged and coordinated internal and external stakeholders for Business Development\u2019s activities and engagements. \\r\\n- Work closely with Analytics solutions team, data science and platform team in delivery of products and services to our customers.",
+            "start": {
+                "date": "2016-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2016-11-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Innovation Advocate",
+            "organisation": "StarHub i3",
+            "summary": "The Innovation, Incubation and Investment (i3) is a newly established department in StarHub with the purpose to seek for future services and innovation to be integrated to StarHub's main business. \\r\\nAs part of the i3 team, I worked with the Crowdtivate team to improve the user experience of the product through UT prior to the official launch of the platform.\\r\\nI work closely with the campaign owners to craft their campaign messaging and content. \\r\\nI've liaised with external vendor to manage the marketing materials and contents to be published on the Facebook page of the platform \\r\\nI've sought potential startups to work StarHub to expand its main core of business.\\r\\nI was also part of the organising team of the South East Asian Mobile App Challenge.",
+            "start": {
+                "date": "2014-07-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Project Manager",
+            "organisation": null,
+            "summary": "- Designed, tested and fabricated a chasis for a laser marking machine.\\r\\n- Managed the actual fabrication of the chasis which was presented in Manufacturing Technolgy Asia.",
+            "start": {
+                "date": "2013-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2014-04-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Intern, Education Department, Marine Life Park",
+            "organisation": "Resorts World Sentosa",
+            "summary": "- Designed an educational application that allows students from primary, secondary school to learn the concepts of physics and mathematics through experiencing the rides in Adventure Cove Sentosa. \\r\\n- Conducted educational tours in the South East Asia (SEA) Aquarium for secondary school students.\\r\\n- Co-developed educational programmes for secondary school students such as Universal Studios Physics Programme.",
+            "start": {
+                "date": "2013-05-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2013-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "title": "Undergraduate Researcher",
+            "organisation": "Singapore University of Technology and Design (SUTD)",
+            "summary": "Project: Probability Collectives Theory for The Design of an Artificial School of Fish\\r\\n- Studied the swarming behavior of a school of fish and\/or a flock of birds.\\r\\n- Developed a simulation of the flock behaviour using MATLAB based on mathematical equations",
+            "start": {
+                "date": "2012-09-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-12-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor of Engineering (B.Eng.)",
+            "course_title": "Engineering Product Development",
+            "institution": "Singapore University of Technology and Design",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2015-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "GCE 'A' Level Certificate",
+            "course_title": null,
+            "institution": "Tampines Junior College",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2011-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2012-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": "Science",
+            "course_title": null,
+            "institution": "Beatty Secondary School",
+            "grade": null,
+            "activities_and_societies": {},
+            "start": {
+                "date": "2007-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2009-01-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Honors and Awards",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        },
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Runner Up, Clean & Green Hackathon 2013",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}

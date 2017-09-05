@@ -1,0 +1,34 @@
+{
+    "name": "Randy Sugianto",
+    "email": "yukuku@gmail.com",
+    "url": "https:\/\/www.linkedin.com\/in\/randy-sugianto-21aa558",
+    "summary": "N\/A",
+    "experiences": [
+        {
+            "title": "Programmer",
+            "organisation": null,
+            "summary": null,
+            "start": {
+                "date": "2008-06-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "end": {
+                "date": "2008-08-01 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            }
+        }
+    ],
+    "education": [
+        {
+            "level": null,
+            "course_title": null,
+            "institution": "Nanyang Technological University",
+            "grade": null,
+            "activities_and_societies": null,
+            "start": null,
+            "end": null
+        }
+    ]
+}
