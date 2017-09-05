@@ -110,4 +110,9 @@ class SummaryTest extends AbstractSectionTest
         $result = $this->parsePdf();
         $this->assertNotEmpty($result->getSummary());
     }
+    public function testAndrewWang()
+    {
+        $result = $this->parsePdf();
+        $this->assertEquals('N/A', $result->getSummary());
+    }
 }

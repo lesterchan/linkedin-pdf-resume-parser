@@ -110,4 +110,10 @@ class EmailTest extends AbstractSectionTest
         $emailAddress = $this->parsePdf()->getEmail();
         $this->assertEquals(null, $emailAddress);
     }
+
+    public function testAndrewWang()
+    {
+        $emailAddress = $this->parsePdf()->getEmail();
+        $this->assertEquals('keepwalking.aw@gmail.com', $emailAddress);
+    }
 }

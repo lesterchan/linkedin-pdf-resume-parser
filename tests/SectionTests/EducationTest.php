@@ -314,4 +314,23 @@ class EducationTest extends AbstractSectionTest
         $this->assertEquals(2009, date_format($edu->getStart(), 'Y'));
         $this->assertEquals(2010, date_format($edu->getEnd(), 'Y'));
     }
+
+    public function testAndrewWang()
+    {
+        $education = $this->parsePdf()->getEducation();
+
+        $edu = $education[0];
+        $this->assertEquals('Bachelor of Business', $edu->getLevel());
+        $this->assertEquals('Economics & Finance', $edu->getCourseTitle());
+        $this->assertEquals('Singapore Institute of Management', $edu->getInstitution());
+        $this->assertEquals(2007, date_format($edu->getStart(), 'Y'));
+        $this->assertEquals(2011, date_format($edu->getEnd(), 'Y'));
+
+        $edu = $education[1];
+        $this->assertEquals('GCE "A" Level', $edu->getLevel());
+        $this->assertEquals('Math, Chemistry, Economics', $edu->getCourseTitle());
+        $this->assertEquals('Serangoon Junior College', $edu->getInstitution());
+        $this->assertEquals(2003, date_format($edu->getStart(), 'Y'));
+        $this->assertEquals(2004, date_format($edu->getEnd(), 'Y'));
+    }
 }

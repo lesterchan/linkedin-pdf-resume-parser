@@ -659,4 +659,53 @@ class ExperienceTest extends AbstractSectionTest
         $this->assertEquals('December 2014', date_format($experience->getEnd(), 'F Y'));
         $this->assertNotEmpty($experience->getSummary());
     }
+
+    public function testAndrewWang()
+    {
+        $result = $this->parsePdf();
+
+        $experiences = $result->getExperiences();
+
+        $experience = $experiences[0];
+        $this->assertEquals('Chief Operating Officer', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('May 2015', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals(null, $experience->getEnd());
+        $this->assertEmpty($experience->getSummary());
+
+        $experience = $experiences[1];
+        $this->assertEquals('VP, Business Development, Sales & Events', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('October 2014', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('April 2015', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[2];
+        $this->assertEquals('Head of Japan, Business Development', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('January 2014', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('December 2014', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[3];
+        $this->assertEquals('Business Development Manager', $experience->getTitle());
+        $this->assertEquals('Tech in Asia', $experience->getOrganisation());
+        $this->assertEquals('August 2012', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('January 2014', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[4];
+        $this->assertEquals('Owner', $experience->getTitle());
+        $this->assertEquals(null, $experience->getOrganisation());
+        $this->assertEquals('April 2011', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('May 2012', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+
+        $experience = $experiences[5];
+        $this->assertEquals('Social Media Account Executive', $experience->getTitle());
+        $this->assertEquals('SingTel', $experience->getOrganisation());
+        $this->assertEquals('July 2011', date_format($experience->getStart(), 'F Y'));
+        $this->assertEquals('August 2011', date_format($experience->getEnd(), 'F Y'));
+        $this->assertNotEmpty($experience->getSummary());
+    }
 }
