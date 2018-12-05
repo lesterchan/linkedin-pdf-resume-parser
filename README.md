@@ -1,12 +1,12 @@
-# Tech in Asia LinkedIn PDF Resume Parser
+# LinkedIn PDF Resume Parser
 
-[![Build Status](https://travis-ci.org/techinasia/linkedin-pdf-resume-parser.svg?branch=master)](https://travis-ci.org/techinasia/linkedin-pdf-resume-parser)
+[![Build Status](https://travis-ci.org/lesterchan/linkedin-pdf-resume-parser.svg?branch=master)](https://travis-ci.org/lesterchan/linkedin-pdf-resume-parser)
 
 This library parses LinkedIn PDF resume and extracts out the name, email, summary, work experiences and education history.
 
 ## Installation
 ```bash
-$ composer require techinasia/linkedin-pdf-resume-parser:dev-master
+$ composer require lesterchan/linkedin-pdf-resume-parser:dev-master
 ```
 ## Usage
 
